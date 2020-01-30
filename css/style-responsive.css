@@ -143,6 +143,11 @@ html,body
      color: #B8860B
  }
 
+ footer, h3
+ {
+    color: #FFF;
+ }
+
  .fa
  {
      padding: 15px;
@@ -156,10 +161,12 @@ html,body
      text-decoration: none;
  }
 
+ 
  .icon
  {
      max-width: 200px;
  }
+
 
 @media (max-width: 768px)
 {
