@@ -75,32 +75,6 @@ html,body
     -webkit-animation-delay: 2s;
  }
 
- 
-
-/* #iPhoneLogo
-{
-    width: 30%;
-}
-
-#SamsungLogo
-{
-    width: 30px;
-    height: auto; */
-/* } */ 
-
-.padding #iPhoneLogo
- {
-     padding: 80px 0;
-     -webkit-animation-duration: 5s;
-     -webkit-animation-delay: 1s;
- }
-
- .padding #SamsungLogo
- {
-     padding: 16% 0;
-     -webkit-animation-duration: 5s;
-     -webkit-animation-delay: 2s;
- }
 
  .padding
  {

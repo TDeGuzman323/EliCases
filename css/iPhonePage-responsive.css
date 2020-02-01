@@ -38,7 +38,7 @@ html,body
 
 /* landing page */
 
-/* #home
+#home
 {
     background: url("../Images/landingpage\ copy.jpg") no-repeat center center fixed;
     display: table;
@@ -48,7 +48,7 @@ html,body
     background-size: cover;   
 }
 
-.landing-text
+/* .landing-text
 {
     display: table-cell;
     text-align: center;
@@ -73,51 +73,20 @@ html,body
     color: #000;
     -webkit-animation-duration: 5s;
     -webkit-animation-delay: 2s;
- }
-
- 
-
-/* #iPhoneLogo
-{
-    width: 30%;
-}
-
-#SamsungLogo
-{
-    width: 30px;
-    height: auto; */
-/* } */ 
-
-.padding #iPhoneLogo
- {
-     padding: 80px 0;
-     -webkit-animation-duration: 5s;
-     -webkit-animation-delay: 1s;
- }
-
- .padding #SamsungLogo
- {
-     padding: 16% 0;
-     -webkit-animation-duration: 5s;
-     -webkit-animation-delay: 2s;
- }
-
+ } */
  .padding
  {
-     background: url("../Images/background2.png");
-     max-width: auto;
-     height: 100vh;
-     background-size: cover;
-
+     padding: 80px 0;
  }
+
  .padding img
  {
-    padding: 80px 0; 
-    width: 50%;
-    margin-top: 200px;
-    margin-left: 150px;
+     width: 100%
  }
-
+.padding h4
+{
+    margin-top: 23%;
+}
 
  h2
  {
@@ -182,16 +151,12 @@ html,body
      background-size: cover;
  }
 
- /* .bambooCase
- {
-     height: 300px;
-     width: auto;
- } */
+
  footer
  {
      width: 100%;
      background-color: #23415C;
-     padding: 3% 3% 3% 3%;
+     padding: 5% 5% 10% 5%;
      color: #B8860B
  }
 
@@ -219,7 +184,7 @@ html,body
      max-width: 200px;
  }
 
-/* media queiries */
+
 @media (max-width: 768px)
 {
     .navbar img
@@ -240,17 +205,4 @@ html,body
         padding-top: 5%;
         max-width: 100px;
     }
-    .padding #iPhoneLogo
-    {
-        margin-left: -30px;
-        margin-top: -100px;
-    }
-    .padding #SamsungLogo
-    {
-        margin-left: -30px;
-        margin-top: -400px;
-
-    }
-
-
 }
