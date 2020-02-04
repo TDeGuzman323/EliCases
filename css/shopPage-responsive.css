@@ -28,6 +28,7 @@ html,body
 {
     color: #B8860B; 
     margin-top: 15px;
+    font-size: 14px;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
@@ -36,86 +37,51 @@ html,body
 }
 
 
-/* landing page */
+/* content */
 
-/* #home
+
+
+/* #fixed
 {
-    background: url("../Images/landingpage\ copy.jpg") no-repeat center center fixed;
+    background: url("../Images/background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
     display: table;
-    height: 100%;
-    position: relative;
+    position: absolute;
+    height: 95%;
     width: 100%;
-    background-size: cover;   
-}
+    background-size: cover;
+    
+} */
 
-.landing-text
+/* .padding .row
 {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
- .landing-text h1
+   margin-top: 5%
+} */
+.row #iPhoneLogo
  {
-    font-family: 'Cinzel', serif; 
-    font-size: 500%; 
-    font-weight: 700;
-    color: #fff;
-    text-shadow: 3px 3px #B8860B;
-    -webkit-animation-duration: 5s;
-    -webkit-animation-delay: 0.8s;
- }
-
- .landing-text h3
- {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #000;
-    -webkit-animation-duration: 5s;
-    -webkit-animation-delay: 2s;
- }
-
- 
-
-/* #iPhoneLogo
-{
-    width: 30%;
-}
-
-#SamsungLogo
-{
-    width: 30px;
-    height: auto; */
-/* } */ 
-
-.padding #iPhoneLogo
- {
-     padding: 80px 0;
+     padding: 130px 0 0;
+     margin-top: 20%;
+     margin-left: 25%;
+     width: 50%;
+     height: 20%;
+     
      -webkit-animation-duration: 5s;
      -webkit-animation-delay: 1s;
  }
 
- .padding #SamsungLogo
+ .row #SamsungLogo
  {
-     padding: 16% 0;
+     padding: 130px 0 0;
+     margin-top: 35%;
+     margin-left: 10%;
+     width: 60%;
+     height: 20%;
+    
+
+
      -webkit-animation-duration: 5s;
      -webkit-animation-delay: 2s;
- }
-
- .padding
- {
-     background: url("../Images/background2.png");
-     max-width: auto;
-     height: 100vh;
-     background-size: cover;
-
- }
- .padding img
- {
-    padding: 80px 0; 
-    width: 50%;
-    margin-top: 200px;
-    margin-left: 150px;
  }
 
 
@@ -170,29 +136,15 @@ html,body
      color:#B8860B;
      background-color: #23415C;
  }
- #fixed
- {
-     background-image:  url("../Images/modeliPhone3a.png");
-     background-repeat: no-repeat;
-     background-position: center;
-     display: table;
-     position: relative;
-     height: 60%;
-     width: 100%;
-     background-size: cover;
- }
 
- /* .bambooCase
- {
-     height: 300px;
-     width: auto;
- } */
+ /* footer */
  footer
  {
      width: 100%;
      background-color: #23415C;
-     padding: 3% 3% 3% 3%;
-     color: #B8860B
+     padding: 2% 2% 2% 2%;
+     color: #B8860B;
+     margin-top: 9.5%;
  }
 
  footer, h3
@@ -219,6 +171,16 @@ html,body
      max-width: 200px;
  }
 
+ .row #contact
+ {
+     margin-top: 10%
+ }
+
+ .row #connect
+ {
+     margin-top: 10%;
+ }
+
 /* media queiries */
 @media (max-width: 768px)
 {
@@ -240,17 +202,28 @@ html,body
         padding-top: 5%;
         max-width: 100px;
     }
-    .padding #iPhoneLogo
+
+    .padding h2
     {
-        margin-left: -30px;
-        margin-top: -100px;
+        margin: 20%;
     }
-    .padding #SamsungLogo
+   
+    .padding h4
     {
-        margin-left: -30px;
-        margin-top: -400px;
-
+        text-align: center;
+        margin: 10%;
     }
 
+    .padding p
+    {
+        text-align: center;
+    
+    }
 
+    .padding img
+    {
+        margin-top: 10%;
+    }
 }
+
+
