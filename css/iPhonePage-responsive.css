@@ -41,7 +41,7 @@ html,body
 
 #home
 {
-    background: url("../Images/iPhone11LineUp.png") no-repeat center center fixed;
+    background: url("/Images/4iPhoneBackground.png") no-repeat center center fixed;
     display: table;
     height: 100%;
     width: 100%;
@@ -144,6 +144,9 @@ html,body
  {
      margin-top: 10%;
  }
+
+
+ 
 /* media queiries */
 @media (max-width: 768px)
 {
