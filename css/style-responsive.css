@@ -43,8 +43,8 @@ html,body
     background: url("../Images/landingpage\ copy.jpg") no-repeat center center fixed;
     display: table;
     height: 100%;
-    position: center;
     width: 100%;
+    position: center;
     background-size: cover;   
 }
 

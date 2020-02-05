@@ -6,8 +6,8 @@ html,body
 .navbar
 {
     background-color: #23415C;
-    padding: 10px 0 35px 1%;
-    font-size: 1.2em;
+    padding: 10px 0 15px 1%;
+    font-size: 13px;
     font-family: 'Cinzel', serif;
     font-weight: 700;
 }
@@ -15,26 +15,161 @@ html,body
 .navbar-brand
 {
     min-height:55px;
-    padding: 0 15px 5px;
+    padding: 0 10px 0;
 }
 
 .navbar-brand img
 {
-    width: 30%;
+    width: 24%;
     height: auto;
 }
 
 .navbar-default .navbar-nav li a
 {
     color: #B8860B; 
-    margin-top: 15px;
-    font-size: 14px;
+    margin-top: 12px;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
 {
     color: #FFF; 
 }
+
+/* slider */
+.container 
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 75vh;
+}
+
+.container .slider
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+   animation: animate 30s linear infinite;
+   animation-delay: 8s;
+}
+
+.container .slider .slide
+{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;   
+}
+
+.container .slider .slide .caption
+{
+   position: absolute;
+   bottom: 60px;
+   left: 60px;
+   right: 60px;
+   padding: 30px;
+   background: #000;
+   opacity: 75%;
+   box-sizing: border-box;
+   transition: 0.5s;
+}
+
+.container .slider .slide .caption h1
+{ 
+    margin: 0;
+    padding: 5px;
+    margin-top: 3%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: #23415C;
+    text-shadow: 2px 2px #B8860B ;
+    transition: 0.5s;
+}
+
+
+.container .slider .slide .caption h3
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.container .slider .slide.slide1
+{
+    background-image : url("../Images/4caseiPhone11.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide2
+{
+    background-image : url("../Images/3GalaxyS10ProductImage.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide1
+{
+    background-image : url("../Images/4caseiPhone11.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* slider media queries */
+
+@keyframes animate
+{
+    0% {left: 0;}
+    25% {left: -100%;}
+   50% {left: -100%;}
+   75% {left: -200%;}
+   100% {left: -200%;}
+}
+
+@media (max-width: 768px)
+{
+    .container .slider .slide .caption
+    {
+       bottom: 20px;
+       left: 20px;
+       right: 20px;
+       padding: 20px;
+       background: #000;
+       opacity: 75%;
+     
+    }
+    
+    .container .slider .slide .caption h1
+    { 
+        margin: 0 0 10px;
+        padding: 5px;
+        margin-top: 3%;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        color: #23415C;
+        text-shadow: 2px 2px #B8860B ;
+    }
+    
+    
+    .container .slider .slide .caption h3
+    {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #FFF
+    }
+    
+}
+/* end of slider media queries */
+/* end of slider */
 
 
 /* content */
@@ -58,30 +193,24 @@ html,body
 {
    margin-top: 5%
 } */
-.row #iPhoneLogo
- {
+.row #iPhoneLineUP
+{
      padding: 130px 0 0;
-     margin-top: 20%;
+     margin-top: 25%;
      margin-left: 25%;
-     width: 50%;
+     width: 100%;
      height: 20%;
-     
-     -webkit-animation-duration: 5s;
-     -webkit-animation-delay: 1s;
+     transition: 8s;
+    
  }
 
- .row #SamsungLogo
+ .row #SamsungLineUp
  {
      padding: 130px 0 0;
-     margin-top: 35%;
      margin-left: 10%;
-     width: 60%;
+     width: 100%;
      height: 20%;
-    
-
-
-     -webkit-animation-duration: 5s;
-     -webkit-animation-delay: 2s;
+     transition: 8s;
  }
 
 
@@ -129,7 +258,7 @@ html,body
      font-family: 'Cinzel', serif;
      font-weight: bold;
      -webkit-animation-duration: 3s;
-     -webkit-animation-delay: 3s;
+     -webkit-animation-delay: 1s;
  }
  .btn:hover
  {
