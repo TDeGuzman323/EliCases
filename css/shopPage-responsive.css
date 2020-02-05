@@ -175,20 +175,6 @@ html,body
 /* content */
 
 
-
-/* #fixed
-{
-    background: url("../Images/background2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    display: table;
-    position: absolute;
-    height: 95%;
-    width: 100%;
-    background-size: cover;
-    
-} */
-
 /* .padding .row
 {
    margin-top: 5%
@@ -200,8 +186,7 @@ html,body
      margin-left: 25%;
      width: 100%;
      height: 20%;
-     transition: 8s;
-    
+     transition: 8s;   
  }
 
  .row #SamsungLineUp
@@ -257,6 +242,7 @@ html,body
      margin-top: 15px;
      font-family: 'Cinzel', serif;
      font-weight: bold;
+     
      -webkit-animation-duration: 3s;
      -webkit-animation-delay: 1s;
  }
