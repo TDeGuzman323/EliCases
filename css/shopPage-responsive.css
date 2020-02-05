@@ -174,30 +174,53 @@ html,body
 
 /* content */
 
-
-/* .padding .row
+.phoneHeader 
 {
-   margin-top: 5%
-} */
-.row #iPhoneLineUP
+    margin-top: 5%;
+    margin-bottom: -5%;
+    text-align: center;
+}
+
+.phoneHeader h1
+{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #23415C;
+    text-shadow: 2px 2px #B8860B ;
+    text-align: center;
+}
+
+.phoneHeader h3
+{
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    color: #000;
+}
+.row #iPhoneLineUp
 {
      padding: 130px 0 0;
-     margin-top: 25%;
-     margin-left: 25%;
-     width: 100%;
+     margin-left: 25%;  
+     width: 50%;
      height: 20%;
-     transition: 8s;   
  }
 
  .row #SamsungLineUp
  {
      padding: 130px 0 0;
-     margin-left: 10%;
-     width: 100%;
+     margin-left: 18%;
+     width: 62%;
      height: 20%;
      transition: 8s;
  }
 
+ .row #labelPhone
+ {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #23415C;
+    text-shadow: 2px 2px #B8860B ;
+    text-align: center;
+ }
 
  h2
  {
@@ -242,7 +265,7 @@ html,body
      margin-top: 15px;
      font-family: 'Cinzel', serif;
      font-weight: bold;
-     
+
      -webkit-animation-duration: 3s;
      -webkit-animation-delay: 1s;
  }
@@ -259,7 +282,7 @@ html,body
      background-color: #23415C;
      padding: 2% 2% 2% 2%;
      color: #B8860B;
-     margin-top: 9.5%;
+     margin-top: 3%;
  }
 
  footer, h3
@@ -297,11 +320,21 @@ html,body
  }
 
 /* media queiries */
+
 @media (max-width: 768px)
 {
+   .navbar
+   {
+        padding: 10px;
+   }
     .navbar img
     {
-        padding: 1px;
+        margin-top: -3%;
+    }
+    .navbar-toggle
+    {
+        margin-top: 5%;
+        margin-bottom: -8%;
     }
     .landing-text h1 
     {
