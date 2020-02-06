@@ -110,6 +110,7 @@ html,body
 
 .padding #handCrafted
 {
+ 
     margin-top: 22%;
 }
 .padding #customCase
@@ -236,6 +237,9 @@ html,body
      margin-top: 10%;
  }
 
+
+ /* media queries */
+
 @media (max-width: 768px)
 {
    .navbar
@@ -276,14 +280,5 @@ html,body
         margin: 10%;
     }
 
-    .padding p
-    {
-        text-align: center;
     
-    }
-
-    .padding img
-    {
-        margin-top: 10%;
-    }
 }

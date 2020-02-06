@@ -1,4 +1,90 @@
+
+:root {
+  --primaryColor: #B8860B;;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: 'Montserrat', sans-serif;
+}
+
 html,body
+{
+    height: 100%;
+    width: 100%;
+}
+ 
+/* navbar */
+.navbar
+{
+    background-color: #23415C;
+    padding: 8px 0 10px 1%;
+    font-size: 13px;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    position: sticky;
+    justify-content: space-between;
+    
+}
+
+.navbar-brand
+{
+    min-height:55px;
+    padding: 0 10px 0;
+}
+
+.navbar-brand img
+{
+    width: 20%;
+    height: auto;
+}
+
+.navbar-default .navbar-nav li a
+{
+    color: #B8860B; 
+    margin-top: 12px;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
+{
+    color: #FFF; 
+} 
+/* --------------- cart button ---------------- */
+
+
+.cart-btn {
+  position: relative;
+  cursor: pointer;
+}
+.cart-items {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: var(--primaryColor);
+  padding: 0 5px;
+  border-radius: 30%;
+  color: var(--mainWhite);
+}
+/* --------------- End of CartButton ---------------- */
+
+
+
+/* end of navbar */
+
+
+/* ---original code--- */
+
+/* html,body
 {
     height: 100%;
     width: 100%;
@@ -33,12 +119,12 @@ html,body
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
 {
     color: #FFF; 
-}
+} */
 
 
 /* content */
 
-#home
+/* #home
 {
     background: url("../Images/cherryCaseStylePhoto_iPhone11Pro.JPG") no-repeat center center fixed;
     display: table;
@@ -108,7 +194,7 @@ h1
  }
 
  /* footer */
- footer
+ /* footer
  {
      width: 100%;
      background-color: #23415C;
@@ -149,16 +235,27 @@ h1
  .row #connect
  {
      margin-top: 10%;
- }
+ } */ 
 
 
 
-/* media queiries */
+/* media queiries*/
+/*
 @media (max-width: 768px)
 {
+   .navbar
+   {
+        padding: 10px;
+   }
     .navbar img
     {
-        padding: 1px;
+        margin-top: -3%;
+        width: 25%; 
+    }
+    .navbar-toggle
+    {
+        margin-top: 5%;
+        margin-bottom: -8%;
     }
     .landing-text h1 
     {
@@ -196,6 +293,6 @@ h1
     {
         margin-top: 10%;
     }
-}
+} */
 
 

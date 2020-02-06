@@ -2,6 +2,8 @@ html,body
 {
     height: 100%;
     width: 100%;
+    padding: 10px;
+    transition: all 250ms ease-in-out;
 }
 .navbar
 {
@@ -51,7 +53,7 @@ html,body
     left: 0;
     width: 500%;
     height: 100%;
-   animation: animate 30s linear infinite;
+   animation: animate 10s linear infinite;
    animation-delay: 8s;
 }
 
@@ -131,6 +133,7 @@ html,body
    75% {left: -200%;}
    100% {left: -200%;}
 }
+
 
 @media (max-width: 768px)
 {
@@ -320,6 +323,7 @@ html,body
  }
 
 /* media queiries */
+
 
 @media (max-width: 768px)
 {
