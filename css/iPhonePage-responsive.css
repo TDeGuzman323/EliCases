@@ -28,7 +28,7 @@ html,body
 .navbar
 {
     background-color: #23415C;
-    padding: 8px 0 10px 1%;
+    padding: 8px 0 10px 0;
     font-size: 13px;
     font-family: 'Cinzel', serif;
     font-weight: 700;
@@ -40,13 +40,14 @@ html,body
 .navbar-brand
 {
     min-height:55px;
-    padding: 0 10px 0;
+    padding: 5px 10px 10px 0;
 }
 
 .navbar-brand img
 {
     width: 20%;
     height: auto;
+    margin-left: 3%;
 }
 
 .navbar-default .navbar-nav li a
@@ -59,8 +60,8 @@ html,body
 {
     color: #FFF; 
 } 
-/* --------------- cart button ---------------- */
 
+/* --- CART BUTTON NAV--- */
 
 .cart-btn {
   position: relative;
@@ -75,12 +76,200 @@ html,body
   border-radius: 30%;
   color: var(--mainWhite);
 }
-/* --------------- End of CartButton ---------------- */
+/* --- END OF CART BUTTON NAV--- */
+/* --- END OF NAVBAR --- */
 
 
 
-/* end of navbar */
+/* --- HEADER --- */
 
+.container
+{
+    background-image: url("../Images/rosewoodCustomized_iPhone.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    margin: 0px;
+}
+.landingHeader
+{
+    text-align: center;
+}
+.landingHeader h1
+{
+ 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 400%;
+    font-weight: bold;
+    color: #23415C;
+    text-shadow: 3px 3px #B8860B;  
+}
+/* --- END OF HEADER---> */
+
+
+
+/* --- PRODUCTS --- */
+.products {
+    padding: 4rem 0;
+  }
+
+  .products-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+  }
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .img-container:hover .bag-btn {
+    transform: translateX(0);
+  }
+  .product-img {
+    display: block;
+    width: 50%;
+    min-height: 12rem;
+    transition: var(--mainTransition);
+    margin-left: 25%;
+  }
+  .img-container:hover .product-img {
+    opacity: 0.5;
+  }
+
+  .product h3 {
+    margin-top: 1rem;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+    color: var(--mainBlack);
+  }
+  
+  .product h4 {
+    margin-top: 0.7rem;
+    letter-spacing: var(--mainSpacing);
+    color: var(--primaryColor);
+    text-align: center;
+  }
+
+  /* --- FOOTER */
+ footer
+ {
+     width: 100%;
+     background-color: #23415C;
+     padding: 2% 2% 2% 2%;
+     color: #B8860B
+ }
+
+ footer, h3
+ {
+    color: #FFF;
+ }
+
+ h5
+ {
+    font-family: 'Montserrat', sans-serif;
+    color:  #B8860B;
+ }
+
+ h5:hover
+ {
+     color: #FFF;
+ }
+
+
+ .fab
+ {
+     padding: 15px;
+     font-size: 25px;
+     color: #FFF;
+ }
+
+ .fab:hover
+ {
+     color:#B8860B;
+     text-decoration: none;
+ }
+
+ 
+ .icon
+ {
+     max-width: 200px;
+ }
+
+ .row #contact
+ {
+     margin-top: 10%
+ }
+
+ .row #connect
+ {
+     margin-top: 10%;
+ }
+  /* --- END of FOOTER --- */
+
+
+
+ /* --- MEDIA QUERIES --- */
+ @media (max-width: 768px)
+{
+   .navbar
+   {
+        padding: 10px;
+   }
+    .navbar img
+    {
+        margin-top: -3%;
+        width: 25%; 
+    }
+    .navbar-toggle
+    {
+        margin-top: 5%;
+        margin-bottom: -8%;
+    }
+    .landing-text h1 
+    {
+        font-size: 300%
+    }
+    .fa
+    {
+        font-size: 20px;
+        padding: 10px
+    }
+    .icon
+    {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+
+    .padding h2
+    {
+        margin: 20%;
+    }
+   
+    .padding h4
+    {
+        text-align: center;
+        margin: 10%;
+    }
+
+    .padding p
+    {
+        text-align: center;
+    
+    }
+
+    .padding img
+    {
+        margin-top: 10%;
+    }
+}
+/* --- END OF MEDIA QUERIES --- */
 
 /* ---original code--- */
 
