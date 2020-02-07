@@ -28,7 +28,7 @@ html,body
 .navbar
 {
     background-color: #23415C;
-    padding: 8px 0 10px 0;
+    padding: 8px 0 15px 0;
     font-size: 13px;
     font-family: 'Cinzel', serif;
     font-weight: 700;
@@ -91,7 +91,7 @@ html,body
     background-size: cover;
     width: 100%;
     height: 70vh;
-    margin: 0px;
+    margin: -20px;
 }
 .landingHeader
 {

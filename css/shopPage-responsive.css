@@ -107,6 +107,7 @@ html,body
     background-image : url("../Images/4caseiPhone11.jpg");
     background-size: cover;
     background-position: center;
+    margin: 0;
 }
 
 .container .slider .slide.slide2
