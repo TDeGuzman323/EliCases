@@ -12,7 +12,7 @@
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-       <script src="app.js"></script> 
+       <script src="../javascript/app.js"></script> 
        <!-- style sheets -->
        <script src="https://kit.fontawesome.com/c60479b31b.js" crossorigin="anonymous"></script>
        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Cinzel|Montserrat&display=swap" rel="stylesheet">
@@ -78,8 +78,55 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
-                    <h3>iPhone 11 Pro</h3>
+                    <!-- button modal trigger -->
+                     <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#staticBackdrop">Select Options</button>
+                    <!-- modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="staticBackdropLabel">Select Your Case</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <!--- modal content --->
+                                <div class="center">
+                                    <div class="boxItem">
+                                        <div class="imgPro">
+                                            <img src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" class="img-fluid" alt="eliCasesBambooCase">
+                                        </div>
+                                        <hr>
+                                        <h1 class="title">iPhone 11 Pro</h1>
+                                        <p> Make your selection </p>
+                                        <div class="allCaseOptions">
+                                            <div class="row">
+                                                <ul class="allCases">
+                                                    <li class="bamboo"><a href="#"><img src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" id="bamboo" onclick="changeImage()"></a></li>
+                                                    <li class="cherry"><a href="#"><img src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" id="cherry" onclick="changeImage()"></a></li>
+                                                    <li class="rosewood"><a href="#"><img src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11PROproMax.png" id="rosewood" onclick="changeImage()"></a></li>
+                                                    <li class="walnut"><a href="#"><img src="../Images/productCase/iPhone/iPhone11/walnut_iPhone11PROproMax.png" id="walnut" onclick="changeImage()"></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                        
+
+                                        <div class="price">
+                                            <b><span>$</span>49.99</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     <h3>iPhone 11 Pro</h3>
                 </div>
             </article>
 
