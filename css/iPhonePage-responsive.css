@@ -89,7 +89,7 @@ html,body
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    width: 102%;
     height: 70vh;
     margin: -20px;
 }
@@ -104,7 +104,8 @@ html,body
     font-size: 400%;
     font-weight: bold;
     color: #23415C;
-    text-shadow: 3px 3px #B8860B;  
+    text-shadow: 3px 3px #B8860B;
+    margin-top: 5%;
 }
 /* --- END OF HEADER---> */
 
@@ -157,10 +158,32 @@ html,body
     text-align: center;
   }
 
+  /*  Overlay Button */
+
+.btn
+{
+     padding: 8px;
+     margin-top: 15px;
+     font-family: 'Cinzel', serif;
+     font-weight: bolder;
+     font-size: 15px;
+     width: 70%;
+     margin-left: 15%;
+     position:absolute;
+     top: 50%;
+     opacity: 0;
+}
+ .btn:hover
+ {
+     color:#B8860B;
+     background-color: #23415C;
+     opacity: 1;
+ }
+
   /* --- FOOTER */
  footer
  {
-     width: 100%;
+     margin-top: 5%;   
      background-color: #23415C;
      padding: 2% 2% 2% 2%;
      color: #B8860B

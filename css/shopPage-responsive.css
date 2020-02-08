@@ -42,8 +42,9 @@ html,body
 {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 105%;
     height: 75vh;
+    margin-left: -2%;
 }
 
 .container .slider
@@ -287,6 +288,7 @@ html,body
      padding: 2% 2% 2% 2%;
      color: #B8860B;
      margin-top: 3%;
+     margin-left: -10%;
  }
 
  footer, h3
