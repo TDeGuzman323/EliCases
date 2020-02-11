@@ -12,7 +12,7 @@
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-       <script src="../javascript/app.js"></script> 
+       
        <!-- style sheets -->
        <script src="https://kit.fontawesome.com/c60479b31b.js" crossorigin="anonymous"></script>
        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Cinzel|Montserrat&display=swap" rel="stylesheet">
@@ -70,7 +70,8 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <!-- button modal trigger -->
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#iPhoneModal">Select Options</button>
                     <h3>iPhone 11</h3>
                 </div>
             </article>
@@ -78,62 +79,69 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" alt="product" class="product-img">
+                    <h3>iPhone 11 Pro</h3>
                     <!-- button modal trigger -->
-                     <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#staticBackdrop">Select Options</button>
-                    <!-- modal -->
-                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Select Options</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
-                          <div class="modal-content">
+                            <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="staticBackdropLabel">Select Your Case</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <h5 class="modal-title" id="exampleModalLabel">Choose Your Case</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
-                              </button>
+                                </button>
                             </div>
                             <div class="modal-body">
-                                <!--- modal content --->
+                                <!-- modal content -->
                                 <div class="center">
                                     <div class="boxItem">
                                         <div class="imgPro">
-                                            <img src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" class="img-fluid" alt="eliCasesBambooCase">
+                                            <img id="bamboo11ProMain" src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" class="img-fluid" alt="eliCasesBambooCase">
                                         </div>
                                         <hr>
                                         <h1 class="title">iPhone 11 Pro</h1>
                                         <p> Make your selection </p>
-                                        <div class="allCaseOptions">
+                                        <div class="allCasesOptions">
                                             <div class="row">
-                                                <ul class="allCases">
-                                                    <li class="bamboo"><a href="#"><img src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" id="bamboo" onclick="changeImage()"></a></li>
-                                                    <li class="cherry"><a href="#"><img src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" id="cherry" onclick="changeImage()"></a></li>
-                                                    <li class="rosewood"><a href="#"><img src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11PROproMax.png" id="rosewood" onclick="changeImage()"></a></li>
-                                                    <li class="walnut"><a href="#"><img src="../Images/productCase/iPhone/iPhone11/walnut_iPhone11PROproMax.png" id="walnut" onclick="changeImage()"></a></li>
-                                                </ul>
+                                                <div class="col-sm-1">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <div class="btn-group">
+                                                            <button class="bttn bamboo"><img id="bamboo11Pro" src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" width="55px" ></button> 
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn cherry"><img id="cherry11Pro" src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" width="60px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn rosewood"><img id="rosewood11Pro" src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11PROproMax.png" width="55px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn walnut"><img id ="walnut11Pro" src="../Images/productCase/iPhone/iPhone11/walnut_iPhone11PROproMax.png" width="68px"></button>
+                                                        </div>
+                                                    </div>    
+                                                </div>   
                                             </div>
                                         </div>
-                        
-
                                         <div class="price">
                                             <b><span>$</span>49.99</b>
                                         </div>
                                     </div>
                                 </div>
-                            
+                                <!-- end of modal content -->
                             </div>
                             <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Understood</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
-                          </div>
+                            </div>
                         </div>
-                      </div>
-                     <h3>iPhone 11 Pro</h3>
+                                <!-- end of modal -->
                 </div>
             </article>
 
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11PROproMax.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg " data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone 11 Pro Max</h3>
                 </div>
             </article>
@@ -141,7 +149,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhoneX/walnut_iPhoneXxsXSMax.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone X</h3>
                 </div>
             </article>
@@ -149,7 +157,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhoneX/bamboo_iPhoneXR.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone XR</h3>
                 </div>
             </article>
@@ -157,7 +165,9 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhoneX/cherry_iPhoneXxsXSMax.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
+                    
+                    
                     <h3>iPhone XS</h3>
                 </div>
             </article>
@@ -165,7 +175,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhoneX/rosewood_iPhoneXxsXSMax.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone XS MAX</h3>
                 </div>
             </article>
@@ -173,7 +183,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone7_8/walnutTPU_iPhone7_8Plus.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone 8</h3>
                 </div>
             </article>
@@ -181,7 +191,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone7_8/bambooTPU_iPhone7_8Plus.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone 8 Plus</h3>
                 </div>
             </article>  
@@ -189,7 +199,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone7_8/cherryTPU_iPhone7_8Plus.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone 7</h3>
                 </div>
             </article>
@@ -197,7 +207,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone7_8/rosewoodTPU_iPhone7_8Plus.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone 7 Plus</h3>
                 </div>
             </article>
@@ -205,7 +215,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone6/bambooTPU_iPhone6.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone 6</h3>
                 </div>
             </article>
@@ -213,7 +223,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone6/cherryAW_iPhone6Plus.png" alt="product" class="product-img">
-                    <a href="#" class="btn btn-default btn-lg">Select Options</a>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone 6 Plus</h3>
                 </div>
             </article>
@@ -244,6 +254,6 @@
         </div>
     </footer>
 
-      
+    <script src="../javascript/app.js"></script>    
 </body>    
 </html> 

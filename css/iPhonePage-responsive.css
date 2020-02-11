@@ -233,44 +233,35 @@ p
     padding: 0, 0, 0, 30px;
     margin-left: 20px;
 }
-
-.allCases
-{ 
-    padding: 20px;
-}   
-
-.allCases li
+ /* ---modal buttons--- */
+.bamboo
 {
-    list-style: none;
-    display: inline-block;
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+.cherry
+{
+
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+
 }
 
-.allCases li img
+.rosewood
 {
-    width: 50px;
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
 }
-
-.allCases li.bamboo img
+.walnut
 {
-    width: 53px;
-    margin-left: 20%;
-}
-.allCases li.cherry img
-{
-    width: 55px;
-    margin-left: 58%;
-}
-
-.allCases li.rosewood img
-{
-    width: 51px;
-    margin-left: 125%;  
-}
-.allCases li.walnut img
-{
-    width: 61px;
-    margin-top: -5%;
-    margin-left: 150%;
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
 }
 
 .price
@@ -413,6 +404,27 @@ p
     .padding img
     {
         margin-top: 10%;
+    }
+
+    /* modal buttons mq */
+    .bamboo
+    {
+        margin-left: 5px;
+    }
+
+    .cherry
+    {
+        margin-left: 10px;
+    }
+
+    .rosewood
+    {
+        margin-left: 20px;
+    }
+
+    .walnut
+    {
+        margin-left: 30px;
     }
 }
 /* --- END OF MEDIA QUERIES --- */
