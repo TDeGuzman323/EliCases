@@ -288,6 +288,25 @@ p
 {
     animation: fadeIn 200ms 1 forwards;
 }
+
+/* modal footer buttons */
+.modBttn
+{
+    padding: 5px;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    width: 30%;
+   
+}
+.modBttn:hover
+{
+    color:#B8860B;
+    background-color: #23415C;
+}
+
 @keyframes fadeIn
 {
     0% {opacity:0}
@@ -426,5 +445,16 @@ p
     {
         margin-left: 30px;
     }
+
+    /* mod cart button */
+    .modBttn
+{
+    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 30%;
+   
+}
+
+
 }
 /* --- END OF MEDIA QUERIES --- */
