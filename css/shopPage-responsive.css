@@ -37,6 +37,24 @@ html,body
     color: #FFF; 
 }
 
+
+/* --- CART BUTTON NAV--- */
+
+.cart-btn {
+    position: relative;
+    cursor: pointer;
+  }
+  .cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #B8860B;
+    padding: 0 5px;
+    border-radius: 30%;
+    color: #FFF;
+  }
+  /* --- END OF CART BUTTON NAV--- */
+  
 /* slider */
 .container 
 {
@@ -68,15 +86,15 @@ html,body
 
 .container .slider .slide .caption
 {
-   position: absolute;
-   bottom: 60px;
-   left: 60px;
-   right: 60px;
-   padding: 30px;
-   background: #000;
-   opacity: 75%;
-   box-sizing: border-box;
-   transition: 0.5s;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+    padding: 30px;
+    background: #000;
+    opacity: 75%;
+    box-sizing: border-box;
+    transition: 0.5s;
 }
 
 .container .slider .slide .caption h1
@@ -131,9 +149,9 @@ html,body
 {
     0% {left: 0;}
     25% {left: -100%;}
-   50% {left: -100%;}
-   75% {left: -200%;}
-   100% {left: -200%;}
+    50% {left: -100%;}
+    75% {left: -200%;}
+    100% {left: -200%;}
 }
 
 
@@ -141,35 +159,35 @@ html,body
 {
     .container .slider .slide .caption
     {
-       bottom: 20px;
-       left: 20px;
-       right: 20px;
-       padding: 20px;
-       background: #000;
-       opacity: 75%;
-     
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+    background: #000;
+    opacity: 75%;
+    
     }
     
     .container .slider .slide .caption h1
     { 
-        margin: 0 0 10px;
-        padding: 5px;
-        margin-top: 3%;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 60px;
-        color: #23415C;
-        text-shadow: 2px 2px #B8860B ;
+    margin: 0 0 10px;
+    padding: 5px;
+    margin-top: 3%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #23415C;
+    text-shadow: 2px 2px #B8860B ;
     }
     
     
     .container .slider .slide .caption h3
     {
-        margin: 0;
-        padding: 0;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        font-size: 30px;
-        color: #FFF
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF
     }
     
 }
@@ -203,19 +221,19 @@ html,body
 }
 .row #iPhoneLineUp
 {
-     padding: 130px 0 0;
-     margin-left: 25%;  
-     width: 50%;
-     height: 20%;
+    padding: 130px 0 0;
+    margin-left: 25%;  
+    width: 50%;
+    height: 20%;
  }
 
  .row #SamsungLineUp
  {
-     padding: 130px 0 0;
-     margin-left: 18%;
-     width: 62%;
-     height: 20%;
-     transition: 8s;
+    padding: 130px 0 0;
+    margin-left: 18%;
+    width: 62%;
+    height: 20%;
+    transition: 8s;
  }
 
  .row #labelPhone
@@ -256,7 +274,7 @@ html,body
 
  h5:hover
  {
-     color: #FFF;
+    color: #FFF;
  }
 
  p
@@ -266,29 +284,29 @@ html,body
 
  .btn
  {
-     padding: 10px;
-     margin-top: 15px;
-     font-family: 'Cinzel', serif;
-     font-weight: bold;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
 
-     -webkit-animation-duration: 3s;
-     -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
  }
  .btn:hover
  {
-     color:#B8860B;
-     background-color: #23415C;
+    color:#B8860B;
+    background-color: #23415C;
  }
 
  /* footer */
  footer
  {
-     width: 100%;
-     background-color: #23415C;
-     padding: 2% 2% 2% 2%;
-     color: #B8860B;
-     margin-top: 3%;
-     margin-left: -10%;
+    width: 100%;
+    background-color: #23415C;
+    padding: 2% 2% 2% 2%;
+    color: #B8860B;
+    margin-top: 3%;
+    margin-left: -10%;
  }
 
  footer, h3
@@ -298,15 +316,15 @@ html,body
 
  .fa
  {
-     padding: 15px;
-     font-size: 25px;
-     color: #FFF;
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
  }
 
  .fa:hover
  {
-     color:#B8860B;
-     text-decoration: none;
+    color:#B8860B;
+    text-decoration: none;
  }
 
  

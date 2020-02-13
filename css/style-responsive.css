@@ -35,6 +35,22 @@ html,body
     color: #FFF; 
 }
 
+/* --- CART BUTTON NAV--- */
+
+.cart-btn {
+    position: relative;
+    cursor: pointer;
+  }
+  .cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #B8860B;
+    padding: 0 5px;
+    border-radius: 30%;
+    color: #FFF;
+  }
+  /* --- END OF CART BUTTON NAV--- */
 
 /* content */
 

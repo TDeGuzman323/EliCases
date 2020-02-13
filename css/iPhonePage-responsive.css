@@ -82,30 +82,30 @@ html,body
 
 
 /* --- HEADER --- */
-
 .container
 {
-    background-image: url("../Images/rosewoodCustomized_iPhone.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 102%;
-    height: 70vh;
-    margin: -20px;
+  background-image: url("../Images/rosewoodCustomized_iPhone.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 102%;
+  height: 70vh;
+  margin: -20px;
 }
+
 .landingHeader
 {
     text-align: center;
 }
+
 .landingHeader h1
 {
- 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 400%;
-    font-weight: bold;
-    color: #23415C;
-    text-shadow: 3px 3px #B8860B;
-    margin-top: 5%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 400%;
+  font-weight: bold;
+  color: #23415C;
+  text-shadow: 3px 3px #B8860B;
+  margin-top: 5%;
 }
 /* --- END OF HEADER---> */
 
@@ -169,36 +169,36 @@ html,body
   }
   /*  Overlay Button */
 
-.btn
-{
-     padding: 8px;
-     margin-top: 15px;
-     font-family: 'Cinzel', serif;
-     font-weight: bolder;
-     font-size: 15px;
-     width: 70%;
-     margin-left: 15%;
-     position:absolute;
-     top: 50%;
-     opacity: 0;
-}
- .btn:hover
- {
-     color:#B8860B;
-     background-color: #23415C;
-     opacity: 1;
- }
+  .btn
+  {
+    padding: 8px;
+    margin-top: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 70%;
+    margin-left: 15%;
+    position:absolute;
+    top: 50%;
+    opacity: 0;
+  }
+  .btn:hover
+  {
+  color:#B8860B;
+  background-color: #23415C;
+  opacity: 1;
+  }
 /* ---END OVERLAY BUTTON --- */
 
 
   /* --- FOOTER */
- footer
- {
-     margin-top: 5%;   
-     background-color: #23415C;
-     padding: 2% 2% 2% 2%;
-     color: #B8860B
- }
+  footer
+  {
+    margin-top: 5%;   
+    background-color: #23415C;
+    padding: 2% 2% 2% 2%;
+    color: #B8860B
+  }
 
  footer, h3
  {
