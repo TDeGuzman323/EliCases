@@ -158,6 +158,15 @@ html,body
     text-align: center;
   }
 
+  #product11pro
+  {
+    width: 55%;
+  }
+
+  #product11x
+  {
+    width: 55%;
+  }
   /*  Overlay Button */
 
 .btn
@@ -181,137 +190,6 @@ html,body
  }
 /* ---END OVERLAY BUTTON --- */
 
-
-
-/* --- PRODUCT MODAL---  */
-.modal-body
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.modal-header h5
-{
-    font-family: 'Cinzel', serif;
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: center;
-    color:#B8860B;
-    text-shadow: 2px 2px #23415C;
-}
-
-.modal-header .modal-title
-{
-    margin-top: 5%;
-}
-
-.imgPro img
-{
-    width: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 50px 0;
-}
-
-hr
-{
-    border: 1px solid rgba (204, 204, 204, 0.4);
-}
-
-.title
-{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
-    color: #000;
-    padding: 20px, 0 5px 30px;
-    margin-left: 20px;
-}
-
-p
-{
-    font-size: 20px;
-    padding: 0, 0, 0, 30px;
-    margin-left: 20px;
-}
- /* ---modal buttons--- */
-.bamboo
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewood
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-.walnut
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-
-.price
-{
-    padding: 15px 0 25px 30px;
-    font-weight: bold;
-}
-
-.price b
-{
-    font-size: 20px;
-    position: relative;
-    font-weight: 500;
-}
-
-.price b span
-{
-    position: absolute;
-    font-size: 1rem;
-    left: -10px;
-}
-
-.animate 
-{
-    animation: fadeIn 200ms 1 forwards;
-}
-
-/* modal footer buttons */
-.modBttn
-{
-    padding: 5px;
-    font-family: 'Cinzel', serif;
-    font-weight: bolder;
-    font-size: 15px;
-    margin-bottom: 30px;
-    margin-left: 200px;
-    width: 30%;
-   
-}
-.modBttn:hover
-{
-    color:#B8860B;
-    background-color: #23415C;
-}
-
-@keyframes fadeIn
-{
-    0% {opacity:0}
-    100% {opacity: 1}
-}
 
   /* --- FOOTER */
  footer
@@ -372,7 +250,7 @@ p
 
 
  /* --- MEDIA QUERIES --- */
- @media (max-width: 768px)
+@media (max-width: 768px)
 {
    .navbar
    {
@@ -424,37 +302,5 @@ p
     {
         margin-top: 10%;
     }
-
-    /* modal buttons mq */
-    .bamboo
-    {
-        margin-left: 5px;
-    }
-
-    .cherry
-    {
-        margin-left: 10px;
-    }
-
-    .rosewood
-    {
-        margin-left: 20px;
-    }
-
-    .walnut
-    {
-        margin-left: 30px;
-    }
-
-    /* mod cart button */
-    .modBttn
-{
-    margin-bottom: 30px;
-    margin-left: 150px;
-    width: 30%;
-   
-}
-
-
 }
 /* --- END OF MEDIA QUERIES --- */

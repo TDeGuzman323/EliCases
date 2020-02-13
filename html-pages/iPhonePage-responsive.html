@@ -17,7 +17,8 @@
        <script src="https://kit.fontawesome.com/c60479b31b.js" crossorigin="anonymous"></script>
        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Cinzel|Montserrat&display=swap" rel="stylesheet">
        <link rel="stylesheet" href="../css/animate.min.css">
-       <link rel = "stylesheet" href = "../css/iPhonePage-responsive.css">
+       <link rel="stylesheet" href = "../css/iPhonePage-responsive.css">
+       <link rel="stylesheet" href="../css/iPhoneModals_style.css">
    </head>
    <body>
 
@@ -65,24 +66,16 @@
     <!-- end of hdeader -->
 
     <!-- product section -->
+            <!--iPhone 11  -->
     <section class="products">
         <div class="products-center">
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11.png" alt="product" class="product-img">
-                    <!-- button modal trigger -->
-                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#iPhoneModal">Select Options</button>
                     <h3>iPhone 11</h3>
-                </div>
-            </article>
-
-            <article class="product">
-                <div class="img-container">
-                    <img src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" alt="product" class="product-img">
-                    <h3>iPhone 11 Pro</h3>
                     <!-- button modal trigger -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Select Options</button>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iPhone11Modal">Select Options</button>
+                    <div class="modal fade" id="iPhone11Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
@@ -96,26 +89,26 @@
                                 <div class="center">
                                     <div class="boxItem">
                                         <div class="imgPro">
-                                            <img id="bamboo11ProMain" src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" class="img-fluid" alt="eliCasesBambooCase">
+                                            <img id="bamboo11ProMain" src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11.png" class="img-fluid" alt="eliCasesWoodCase">
                                         </div>
                                         <hr>
-                                        <h1 class="title">iPhone 11 Pro</h1>
+                                        <h1 class="title">iPhone 11</h1>
                                         <p> Make your selection </p>
                                         <div class="allCasesOptions">
                                             <div class="row">
                                                 <div class="col-sm-1">
                                                     <div class="btn-group btn-group-justified">
                                                         <div class="btn-group">
-                                                            <button class="bttn bamboo"><img id="bamboo11Pro" src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" width="55px" ></button> 
+                                                            <button class="bttn bamboo11"><img id="bamboo11" src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11.png" width="60px" ></button> 
                                                         </div>
                                                         <div class="btn-group">
-                                                            <button class="bttn cherry"><img id="cherry11Pro" src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" width="60px"></button>
+                                                            <button class="bttn cherry11"><img id="cherry11" src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11.png" width="60px"></button>
                                                         </div>
                                                         <div class="btn-group">
-                                                            <button class="bttn rosewood"><img id="rosewood11Pro" src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11PROproMax.png" width="55px"></button>
+                                                            <button class="bttn rosewood11"><img id="rosewood11" src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11.png" width="65px"></button>
                                                         </div>
                                                         <div class="btn-group">
-                                                            <button class="bttn walnut"><img id ="walnut11Pro" src="../Images/productCase/iPhone/iPhone11/walnut_iPhone11PROproMax.png" width="68px"></button>
+                                                            <button class="bttn walnut11"><img id ="walnut11" src="../Images/productCase/iPhone/iPhone11/walnut_iPhone11.png" width="65px"></button>
                                                         </div>
                                                     </div>    
                                                 </div>   
@@ -136,56 +129,431 @@
                                 <!-- end of modal -->
                 </div>
             </article>
-
+            <!-- iPhone 11 Pro -->
+            <article class="product">
+                <div class="img-container">
+                    <img id="product11pro" src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" alt="product" class="product-img">
+                    <h3>iPhone 11 Pro</h3>
+                    <!-- button modal trigger -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iPhone11ProModal">Select Options</button>
+                    <div class="modal fade" id="iPhone11ProModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Choose Your Case</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- modal content -->
+                                <div class="center">
+                                    <div class="boxItem">
+                                        <div class="imgPro">
+                                            <img id="cherry11ProMain" src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" class="img-fluid" alt="eliCasesWoodCase">
+                                        </div>
+                                        <hr>
+                                        <h1 class="title">iPhone 11 Pro</h1>
+                                        <p> Make your selection </p>
+                                        <div class="allCasesOptions">
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <div class="btn-group">
+                                                            <button class="bttn bamboo11Pro"><img id="bamboo11Pro" src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" width="55px" ></button> 
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn cherry11Pro"><img id="cherry11Pro" src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" width="60px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn rosewood11Pro"><img id="rosewood11Pro" src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11PROproMax.png" width="55px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn walnut11Pro"><img id ="walnut11Pro" src="../Images/productCase/iPhone/iPhone11/walnut_iPhone11PROproMax.png" width="68px"></button>
+                                                        </div>
+                                                    </div>    
+                                                </div>   
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b><span>$</span>49.99</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal content -->
+                            </div>
+                            <div class="modal-footer"></div>
+                                <button type="button" class="modBttn btn-default">Add to Cart</button>
+                            </div>
+                            </div>
+                        </div>
+                                <!-- end of modal -->
+                </div>
+            </article>
+                    <!-- end of iPhone 11 Pro Modal -->
+                    <!-- iPhone 11 Pro Max Modal -->
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11PROproMax.png" alt="product" class="product-img">
-                    <button type="button" class="btn btn-default btn-lg " data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone 11 Pro Max</h3>
+                    <!-- button modal trigger -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iPhone11ProMaxModal">Select Options</button>
+                    <div class="modal fade" id="iPhone11ProMaxModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Choose Your Case</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- modal content -->
+                                <div class="center">
+                                    <div class="boxItem">
+                                        <div class="imgPro">
+                                            <img id="rosewood11ProMain" src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11PROproMax.png" class="img-fluid" alt="eliCasesWoodCase">
+                                        </div>
+                                        <hr>
+                                        <h1 class="title">iPhone 11 Pro Max</h1>
+                                        <p> Make your selection </p>
+                                        <div class="allCasesOptions">
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <div class="btn-group">
+                                                            <button class="bttn bamboo11ProMax"><img id="bamboo11ProMax" src="../Images/productCase/iPhone/iPhone11/bamboo_iPhone11PROproMax.png" width="55px"></button> 
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn cherry11ProMax"><img id="cherry11ProMax" src="../Images/productCase/iPhone/iPhone11/cherry_iPhone11PROproMax.png" width="60px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn rosewood11ProMax"><img id="rosewood11ProMax" src="../Images/productCase/iPhone/iPhone11/rosewood_iPhone11PROproMax.png" width="55px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn walnut11ProMax"><img id ="walnut11ProMax" src="../Images/productCase/iPhone/iPhone11/walnut_iPhone11PROproMax.png" width="68px"></button>
+                                                        </div>
+                                                    </div>    
+                                                </div>   
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b><span>$</span>49.99</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal content -->
+                            </div>
+                        <div class="modal-footer"></div>
+                            <button type="button" class="modBttn btn-default">Add to Cart</button>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </article>
-
+                    <!-- end of iPhone 11 Pro Max Modal -->
+                    <!-- iPhone X Modal -->
             <article class="product">
                 <div class="img-container">
-                    <img src="../Images/productCase/iPhone/iPhoneX/walnut_iPhoneXxsXSMax.png" alt="product" class="product-img">
-                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
+                    <img id="product11x" src="../Images/productCase/iPhone/iPhoneX/walnut_iPhoneXxsXSMax.png" alt="product" class="product-img">
                     <h3>iPhone X</h3>
+                    <!-- button modal trigger -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iPhoneXmodal">Select Options</button>
+                    <div class="modal fade" id="iPhoneXmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Choose Your Case</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- modal content -->
+                                <div class="center">
+                                    <div class="boxItem">
+                                        <div class="imgPro">
+                                            <img id="walnutXmain" src="../Images/productCase/iPhone/iPhoneX/walnut_iPhoneXxsXSMax.png" class="img-fluid" alt="eliCasesWoodCase">
+                                        </div>
+                                        <hr>
+                                        <h1 class="title">iPhone X</h1>
+                                        <p> Make your selection </p>
+                                        <div class="allCasesOptions">
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <div class="btn-group">
+                                                            <button class="bttn bambooX"><img id="bambooX" src="../Images/productCase/iPhone/iPhoneX/bamboo_iPhoneXxsXSMax.png" width="60px"></button> 
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn cherryX"><img id="cherryX" src="../Images/productCase/iPhone/iPhoneX/cherry_iPhoneXxsXSMax.png" width="55px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn rosewoodX"><img id="rosewoodX" src="../Images/productCase/iPhone/iPhoneX/rosewood_iPhoneXxsXSMax.png" width="60px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn walnutX"><img id="walnutX" src="../Images/productCase/iPhone/iPhoneX/walnut_iPhoneXxsXSMax.png" width="65px"></button>
+                                                        </div>
+                                                    </div>    
+                                                </div>   
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b><span>$</span>49.99</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal content -->
+                            </div>
+                        <div class="modal-footer"></div>
+                            <button type="button" class="modBttn btn-default">Add to Cart</button>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </article>
-
+                    <!-- end of iPhone X Modal -->
+                    <!-- iPhone XR Modal -->
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhoneX/bamboo_iPhoneXR.png" alt="product" class="product-img">
-                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone XR</h3>
+                    <!-- button modal trigger -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iPhoneXR">Select Options</button>
+                    <div class="modal fade" id="iPhoneXR" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Choose Your Case</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- modal content -->
+                                <div class="center">
+                                    <div class="boxItem">
+                                        <div class="imgPro">
+                                            <img id="bambooXRmain" src="../Images/productCase/iPhone/iPhoneX/bamboo_iPhoneXR.png" class="img-fluid" alt="eliCasesWoodCase">
+                                        </div>
+                                        <hr>
+                                        <h1 class="title">iPhone XR</h1>
+                                        <p> Make your selection </p>
+                                        <div class="allCasesOptions">
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <div class="btn-group">
+                                                            <button class="bttn bambooXR"><img id="bambooXR" src="../Images/productCase/iPhone/iPhoneX/bamboo_iPhoneXR.png" width="55px"></button> 
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn cherryXR"><img id="cherryXR" src="../Images/productCase/iPhone/iPhoneX/cherry_iPhoneXR.png" width="60px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn rosewoodXR"><img id="rosewoodXR" src="../Images/No_picture_available_icon.png" width="55px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn walnutXR"><img id ="walnutXR" src="../Images/productCase/iPhone/iPhoneX/walnut_iPhoneXR.png" width="68px"></button>
+                                                        </div>
+                                                    </div>    
+                                                </div>   
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b><span>$</span>49.99</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal content -->
+                            </div>
+                        <div class="modal-footer"></div>
+                            <button type="button" class="modBttn btn-default">Add to Cart</button>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </article>
-
+                <!-- end of iPhone XR -->
+                <!-- iPhone XS Modal -->
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhoneX/cherry_iPhoneXxsXSMax.png" alt="product" class="product-img">
-                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
-                    
-                    
                     <h3>iPhone XS</h3>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iPhoneXS">Select Options</button>
+                    <div class="modal fade" id="iPhoneXS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Choose Your Case</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- modal content -->
+                                <div class="center">
+                                    <div class="boxItem">
+                                        <div class="imgPro">
+                                            <img id="cherryXSmain" src="../Images/productCase/iPhone/iPhoneX/cherry_iPhoneXxsXSMax.png" class="img-fluid" alt="eliCasesWoodCase">
+                                        </div>
+                                        <hr>
+                                        <h1 class="title">iPhone XS</h1>
+                                        <p> Make your selection </p>
+                                        <div class="allCasesOptions">
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <div class="btn-group">
+                                                            <button class="bttn bambooXS"><img id="bambooXS" src="../Images/productCase/iPhone/iPhoneX/bamboo_iPhoneXxsXSMax.png" width="62px"></button> 
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn cherryXS"><img id="cherryXS" src="../Images/productCase/iPhone/iPhoneX/cherry_iPhoneXxsXSMax.png" width="58px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn rosewoodXS"><img id="rosewoodXS" src="../Images/productCase/iPhone/iPhoneX/rosewood_iPhoneXxsXSMax.png" width="60px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn walnutXS"><img id ="walnutXS" src="../Images/productCase/iPhone/iPhoneX/walnut_iPhoneXxsXSMax.png" width="68px"></button>
+                                                        </div>
+                                                    </div>    
+                                                </div>   
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b><span>$</span>49.99</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal content -->
+                            </div>
+                        <div class="modal-footer"></div>
+                            <button type="button" class="modBttn btn-default">Add to Cart</button>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </article>
-
+            <!-- end of XS Modal -->
+            <!-- iPhone XS Max Modal -->
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhoneX/rosewood_iPhoneXxsXSMax.png" alt="product" class="product-img">
-                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
-                    <h3>iPhone XS MAX</h3>
+                    <h3>iPhone XS Max</h3>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iPhoneXSmax">Select Options</button>
+                    <div class="modal fade" id="iPhoneXSmax" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Choose Your Case</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- modal content -->
+                                <div class="center">
+                                    <div class="boxItem">
+                                        <div class="imgPro">
+                                            <img id="rosewoodXSmain" src="../Images/productCase/iPhone/iPhoneX/rosewood_iPhoneXxsXSMax.png" class="img-fluid" alt="eliCasesWoodCase">
+                                        </div>
+                                        <hr>
+                                        <h1 class="title">iPhone XS Max</h1>
+                                        <p> Make your selection </p>
+                                        <div class="allCasesOptions">
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <div class="btn-group">
+                                                            <button class="bttn bambooXSmax"><img id="bambooXSmax" src="../Images/productCase/iPhone/iPhoneX/bamboo_iPhoneXxsXSMax.png" width="62px"></button> 
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn cherryXSmax"><img id="cherryXSmax" src="../Images/productCase/iPhone/iPhoneX/cherry_iPhoneXxsXSMax.png" width="58px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn rosewoodXSmax"><img id="rosewoodXSmax" src="../Images/productCase/iPhone/iPhoneX/rosewood_iPhoneXxsXSMax.png" width="60px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn walnutXSmax"><img id ="walnutXSmax" src="../Images/productCase/iPhone/iPhoneX/walnut_iPhoneXxsXSMax.png" width="68px"></button>
+                                                        </div>
+                                                    </div>    
+                                                </div>   
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b><span>$</span>49.99</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal content -->
+                            </div>
+                        <div class="modal-footer"></div>
+                            <button type="button" class="modBttn btn-default">Add to Cart</button>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </article>
-
+            <!-- end of iPhone XS MAX modal-->
+            <!-- iPhone 8 modal -->
             <article class="product">
                 <div class="img-container">
                     <img src="../Images/productCase/iPhone/iPhone7_8/walnutTPU_iPhone7_8Plus.png" alt="product" class="product-img">
-                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="iPhoneModal">Select Options</button>
                     <h3>iPhone 8</h3>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iPhone8Modal">Select Options</button>
+                    <div class="modal fade" id="iPhone8Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Choose Your Case</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- modal content -->
+                                <div class="center">
+                                    <div class="boxItem">
+                                        <div class="imgPro">
+                                            <img id="iPhone8main" src="../Images/productCase/iPhone/iPhone7_8/walnutAW_iPhone7_8.png" class="img-fluid" alt="eliCasesWoodCase">
+                                        </div>
+                                        <hr>
+                                        <h1 class="title">iPhone 8</h1>
+                                        <p> Make your selection </p>
+                                        <div class="allCasesOptions">
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <div class="btn-group">
+                                                            <button class="bttn bamboo8"><img id="bamboo8" src="../Images/productCase/iPhone/iPhone7_8/bambooAW_iPhone7_8.png" width="62px"></button> 
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn cherry8"><img id="cherry8" src="../Images/productCase/iPhone/iPhone7_8/cherryAW_iPhone7_8.png" width="62px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn rosewood8"><img id="rosewood8" src="../Images/productCase/iPhone/iPhone7_8/rosewood_iPhone7_8.png" width="62px"></button>
+                                                        </div>
+                                                        <div class="btn-group">
+                                                            <button class="bttn walnut8"><img id="walnut8" src="../Images/productCase/iPhone/iPhone7_8/walnutAW_iPhone7_8.png" width="62px"></button>
+                                                        </div>
+                                                    </div>    
+                                                </div>   
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b><span>$</span>49.99</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of modal content -->
+                            </div>
+                        <div class="modal-footer"></div>
+                            <button type="button" class="modBttn btn-default">Add to Cart</button>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </article>
+            <!-- end of iPhone 8 modal -->
 
             <article class="product">
                 <div class="img-container">
@@ -253,6 +621,13 @@
         </div>
     </footer>
 
-    <script src="../javascript/app.js"></script>    
+    <script src="../javascript/Modals/iPhone11Modal.js"></script>
+    <script src="../javascript/Modals/iPhone11ProModal.js"></script>
+    <script src="../javascript/Modals/iPhone11ProMaxModal.js"></script>
+    <script src="../javascript/Modals/iPhoneXmodal.js"></script>
+    <script src="../javascript/Modals/iPhoneXRmodal.js"></script>
+    <script src="../javascript/Modals/iPhoneXSmodal.js"></script>
+    <script src="../javascript/Modals/iPhoneXSmaxModal.js"></script>
+    <script src="../javascript/Modals/iPhone8Modal.js"></script>
 </body>    
 </html> 
