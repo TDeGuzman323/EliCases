@@ -194,36 +194,354 @@ p
 /* --- end of Galaxy S10e Modal */
 
 /* --- Galaxy Note 10 Modal --- */
+.bambooGalaxyNote10
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+.cherryGalaxyNote10
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 150px;
+}
+
+.rosewoodGalaxyNote10
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 250px;
+}
+.walnutGalaxyNote10
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 350px;
+}
 /* --- end of Galaxy Note 10 Modal --- */
 
 /* --- Galaxy Note 10Plus Modal --- */
+
+.bambooGalaxyNote10Plus
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyNote10Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 150px;
+}
+
+.rosewoodGalaxyNote10Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 250px;
+}
+.walnutGalaxyNote10Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 350px;
+    
+}
+
 /* --- end of Galaxy Note 10Plus Modal --- */
 
 /* --- Galaxy S9 Modal --- */
+.bambooGalaxyS9
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyS9
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+}
+
+.rosewoodGalaxyS9
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+}
+.walnutGalaxyS9
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    
+}
 /* --- end of Galaxy S9 Modal --- */
 
 /* --- Galaxy S9Plus Modal --- */
+.bambooGalaxyS9Plus
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyS9Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+}
+
+.rosewoodGalaxyS9Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+}
+.walnutGalaxyS9Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    
+}
 /* --- end of Galaxy S9 Plus Modal --- */
 
 /* --- Galaxy Note 9 Modal --- */
+.bambooGalaxyNote9
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyNote9
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+}
+
+.rosewoodGalaxyNote9
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+}
+.walnutGalaxyNote9
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    
+}
 /* --- end of Galaxy Note 9 Modal --- */
 
 /* --- Galaxy S8 Modal --- */
+.bambooGalaxyS8
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyS8
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+}
+
+.rosewoodGalaxyS8
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+}
+.walnutGalaxyS8
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    
+}
 /* --- end of Galaxy S8 Modal --- */
 
 /* --- Galaxy S8Plus Modal --- */
+.bambooGalaxyS8Plus
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyS8Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+}
+
+.rosewoodGalaxyS8Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+}
+.walnutGalaxyS8Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    
+}
 /* --- end of Galaxy S8Plus Modal --- */
 
 /* --- Galaxy S7 Modal --- */
+.bambooGalaxyS7
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyS7
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+}
+
+.rosewoodGalaxyS7
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+}
+.walnutGalaxyS7
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    
+}
 /* --- end of Galaxy S7 Modal --- */
 
 /* --- Galaxy S7 Edge Modal --- */
+.bambooGalaxyS7Edge
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyS7Edge
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+}
+
+.rosewoodGalaxyS7Edge
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+}
+.walnutGalaxyS7Edge
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+}
 /* --- end of Galaxy S7 Edge Modal ---*/
 
 /* --- Galaxy S6 Modal --- */
+.bambooGalaxyS6
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyS6
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+}
+
+.rosewoodGalaxyS6
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+}
+.walnutGalaxyS6
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    
+}
 /* --- end of Galaxy S6 Modal --- */
 
 /* --- Galaxy S6 Edge Modal --- */
+.bambooGalaxyS6Edge
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    
+}
+
+.cherryGalaxyS6Edge
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+}
+
+.rosewoodGalaxyS6Edge
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+}
+.walnutGalaxyS6Edge
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    
+}
 /* --- end of Galaxy S6 Edge Modal --- */
 
 /*  ----------------------------------------------------------- */
@@ -231,6 +549,7 @@ p
 /* --- MEDIA QUERIES --- */
 @media (max-width: 768px)
 {
+ /* --- end of Galaxy S10 Modal --- */
     .bambooGalaxyS10
     {
         margin-left: 5px;
@@ -250,7 +569,9 @@ p
     {
         margin-left: 30px;
     }
-/* --- Galaxy S10 Modal --- */
+/* --- end of Galaxy S10 Modal --- */
+
+/* --- Galaxy S10Plus Modal --- */
     .bambooGalaxyS10Plus
     {
         margin-left: 5px;
@@ -270,9 +591,9 @@ p
     {
         margin-left: 30px;
     }
-/* --- end of Galaxy S10 Modal --- */
+/* --- end of Galaxy S10Plus Modal --- */
 
-/* --- Galaxy S10Plus Modal --- */
+/* --- Galaxy S10e Modal --- */
     .bambooGalaxyS10e
     {
         margin-left: 5px;
@@ -292,42 +613,249 @@ p
     {
         margin-left: 30px;
     }
-/* --- end of Galaxy S10Plus Modal --- */
-
-/* --- Galaxy S10e Modal --- */
 /* --- end of Galaxy S10e Modal */
 
 /* --- Galaxy Note 10 Modal --- */
+    .bambooGalaxyNote
+    {
+        margin-left: 5px;
+    }
+
+    .cherryGalaxyNote
+    {
+        margin-left: 10px;
+    }
+
+    .rosewoodGalaxyNote
+    {
+        margin-left: 20px;
+    }
+
+    .walnutGalaxyNote
+    {
+        margin-left: 30px;
+    }
 /* --- end of Galaxy Note 10 Modal --- */
 
 /* --- Galaxy Note 10Plus Modal --- */
+    .bambooGalaxyNotePlus
+    {
+        margin-left: 5px;
+    }
+
+    .cherryGalaxyNotePlus
+    {
+        margin-left: 10px;
+    }
+
+    .rosewoodGalaxyNotePlus
+    {
+        margin-left: 20px;
+    }
+
+    .walnutGalaxyNotePlus
+    {
+        margin-left: 30px;
+    }
 /* --- end of Galaxy Note 10Plus Modal --- */
 
 /* --- Galaxy S9 Modal --- */
+    .bambooGalaxyS9
+    {
+        margin-left: 5px;
+    }
+
+    .cherryGalaxyS9
+    {
+        margin-left: 10px;
+    }
+
+    .rosewoodGalaxyS9
+    {
+        margin-left: 20px;
+    }
+
+    .walnutGalaxyS9
+    {
+        margin-left: 30px;
+    }
 /* --- end of Galaxy S9 Modal --- */
 
 /* --- Galaxy S9Plus Modal --- */
+.bambooGalaxyS9Plus
+{
+    margin-left: 5px;
+}
+
+.cherryGalaxyS9Plus
+{
+    margin-left: 10px;
+}
+
+.rosewoodGalaxyS9Plus
+{
+    margin-left: 20px;
+}
+
+.walnutGalaxyS9Plus
+{
+    margin-left: 30px;
+}
 /* --- end of Galaxy S9 Plus Modal --- */
 
 /* --- Galaxy Note 9 Modal --- */
+.bambooGalaxyS9
+{
+    margin-left: 5px;
+}
+
+.cherryGalaxyS9
+{
+    margin-left: 10px;
+}
+
+.rosewoodGalaxyS9
+{
+    margin-left: 20px;
+}
+
+.walnutGalaxyS9
+{
+    margin-left: 30px;
+}
+
 /* --- end of Galaxy Note 9 Modal --- */
 
 /* --- Galaxy S8 Modal --- */
+.bambooGalaxyS8
+{
+    margin-left: 5px;
+}
+
+.cherryGalaxyS8
+{
+    margin-left: 10px;
+}
+
+.rosewoodGalaxyS8
+{
+    margin-left: 20px;
+}
+
+.walnutGalaxyS8
+{
+    margin-left: 30px;
+}
 /* --- end of Galaxy S8 Modal --- */
 
 /* --- Galaxy S8Plus Modal --- */
+.bambooGalaxyS8Plus
+{
+    margin-left: 5px;
+}
+
+.cherryGalaxyS8Plus
+{
+    margin-left: 10px;
+}
+
+.rosewoodGalaxyS8Plus
+{
+    margin-left: 20px;
+}
+
+.walnutGalaxyS8Plus
+{
+    margin-left: 30px;
+}
 /* --- end of Galaxy S8Plus Modal --- */
 
 /* --- Galaxy S7 Modal --- */
+.bambooGalaxyS7
+{
+    margin-left: 5px;
+}
+
+.cherryGalaxyS7
+{
+    margin-left: 10px;
+}
+
+.rosewoodGalaxyS7
+{
+    margin-left: 20px;
+}
+
+.walnutGalaxyS7
+{
+    margin-left: 30px;
+}
 /* --- end of Galaxy S7 Modal --- */
 
 /* --- Galaxy S7 Edge Modal --- */
+.bambooGalaxyS7Edge
+{
+    margin-left: 5px;
+}
+
+.cherryGalaxyS7Edge
+{
+    margin-left: 10px;
+}
+
+.rosewoodGalaxyS7Edge
+{
+    margin-left: 20px;
+}
+
+.walnutGalaxyS7Edge
+{
+    margin-left: 30px;
+}
 /* --- end of Galaxy S7 Edge Modal ---*/
 
 /* --- Galaxy S6 Modal --- */
+.bambooGalaxyS6
+{
+    margin-left: 5px;
+}
+
+.cherryGalaxyS6
+{
+    margin-left: 10px;
+}
+
+.rosewoodGalaxyS6
+{
+    margin-left: 20px;
+}
+
+.walnutGalaxyS6
+{
+    margin-left: 30px;
+}
 /* --- end of Galaxy S6 Modal --- */
 
 /* --- Galaxy S6 Edge Modal --- */
+.bambooGalaxyS6Edge
+{
+    margin-left: 5px;
+}
+
+.cherryGalaxyS6Edge
+{
+    margin-left: 10px;
+}
+
+.rosewoodGalaxyS6Edge
+{
+    margin-left: 20px;
+}
+
+.walnutGalaxyS6Edge
+{
+    margin-left: 30px;
+}
 /* --- end of Galaxy S6 Edge Modal --- */
 
 }
