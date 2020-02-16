@@ -314,14 +314,14 @@ html,body
     color: #FFF;
  }
 
- .fa
+ .fab
  {
     padding: 15px;
     font-size: 25px;
     color: #FFF;
  }
 
- .fa:hover
+ .fab:hover
  {
     color:#B8860B;
     text-decoration: none;
