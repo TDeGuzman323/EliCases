@@ -1,0 +1,321 @@
+:root {
+    --primaryColor:#23415C;
+    --accentColor: #B8860B; 
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all .75s linear;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+color: var(--mainBlack);
+background: var(--mainWhite);
+font-family: 'Montserrat', sans-serif;
+}
+
+html,body
+{
+height: 100%;
+width: 100%;
+}
+
+/* --- NAVBAR --- */
+.navbar
+{
+background-color: var(--primaryColor);
+padding: 8px 0 15px 0;
+font-size: 13px;
+font-family: 'Cinzel', serif;
+font-weight: 700;
+position: sticky;
+justify-content: space-between;
+
+}
+
+.navbar-brand
+{
+min-height:55px;
+padding: 5px 10px 10px 0;
+}
+
+.navbar-brand img
+{
+width: 20%;
+height: auto;
+margin-left: 3%;
+}
+
+.navbar-default .navbar-nav li a
+{
+color: var(--accentColor); 
+margin-top: 12px;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
+{
+color: var(--mainWhite); 
+} 
+
+/* --- CART BUTTON NAV--- */
+
+.shopcCart-btn {
+position: relative;
+cursor: pointer;
+}
+.shopCart-items {
+position: absolute;
+top: 0px;
+right: 0px;
+background: var(--accentColor);
+padding: 0 5px;
+border-radius: 30%;
+color: var(--mainWhite);
+}
+/* --- end of CART BUTTON NAV--- */
+/* --- end of NAVBAR --- */
+
+/* --- HEADER --- */
+.phoneHeader h1
+{
+font-family: 'Bebas Neue', cursive;
+color: var(--primaryColor);
+text-shadow: 3px 3px var(--accentColor);
+font-size: 100px;
+text-align: center;
+}
+
+.phoneHeader h3
+{
+font-family: 'Cinzel', serif;
+color: var(--mainBlack);
+text-align: center;
+font-weight: bolder;
+font-size: 25px;
+}
+/* --- end of HEADER */
+
+/* --- GALLERY --- */
+
+.products {
+padding: 4rem 0;
+}
+
+.section-title h2 {
+text-align: center;
+font-size: 2.5rem;
+margin-bottom: 5rem;
+text-transform: capitalize;
+letter-spacing: var(--mainSpacing);
+}
+
+.products-center {
+width: 90vw;
+margin: 0 auto;
+max-width: 1170px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+grid-column-gap: 1.5rem;
+grid-row-gap: 2rem;
+}
+
+.img-container {
+position: relative;
+overflow: hidden;
+}
+
+.bag-btn {
+position: absolute;
+top: 50%;
+right: 28.5%;
+background: var(--mainWhite);
+border: none;
+text-transform: uppercase;
+padding: 0.75rem 1rem;
+letter-spacing: var(--mainSpacing);
+font-weight: bold;
+font-size: 10px;
+transition: var(--mainTransition);
+/* transform: translateX(25%); */
+transform: translateY(25%);
+cursor: pointer;
+opacity: 0;
+border-radius: 20px 20px;
+
+}
+
+.bag-btn:hover {
+color: var(--accentColor);
+background-color: var(--primaryColor);
+opacity: 1;
+}
+
+
+.fa-shopping-cart {
+margin-right: 0.5rem;
+}
+
+.img-container:hover .bag-btn {
+transform: translateX(0);
+}
+
+.product-img {
+display: block;
+width: 50%;
+min-height: 12rem;
+transition: var(--mainTransition);
+}
+
+.product-img1 {
+display: block;
+width: 50%;
+height: 180px;
+margin-left: 25%;
+transition: var(--mainTransition);
+/* feather into birds */
+}
+
+.product-img2 {
+display: block;
+width: 55%;
+height: 190px;
+margin-left: 22%;
+transition: var(--mainTransition);
+/* chess piece, couboy, lotus flowers */
+}
+
+.product-img3 { 
+display: block;
+width: 60%;
+height: 160px;
+margin-left: 20%;
+transition: var(--mainTransition);
+/* excalibur's sword */
+}
+
+.product-img4 {
+display: block;
+width: 60%;
+height: 185px;
+margin-left: 22%;
+transition: var(--mainTransition);
+/* flower elephant */
+}
+
+.product-img5
+{
+display: block;
+width: 50%;
+height: 190px;
+margin-left: 25%;
+transition: var(--mainTransition);
+}
+
+.product-img6
+{
+display: block;
+width: 60%;
+margin-left: 18%;
+margin-top: 20%;
+transition: var(--mainTransition);
+/* philippine flag */
+}
+
+.product-img7
+{
+display: block;
+width: 60%;
+margin-left: 18%;
+margin-top: 20%;
+transition: var(--mainTransition);
+/* pirate ship */
+}
+
+.product-img8
+{
+display: block;
+width: 50%;
+height: 180px;
+margin-left: 22%;
+transition: var(--mainTransition);
+/* quote by jrr tolkien, tribal turtle*/
+}
+
+.product-img9
+{
+display: block;
+width: 60%;
+margin-left: 18%;
+margin-top: 20%;
+transition: var(--mainTransition);
+/* world map */
+}
+
+
+.img-container:hover .product-img 
+{
+opacity: 0.5;
+}
+
+.img-container:hover .product-img1
+{
+opacity: 0.5;
+}
+.img-container:hover .product-img2
+{
+opacity: 0.5;
+}
+.img-container:hover .product-img3
+{
+opacity: 0.5;
+}
+.img-container:hover .product-img4
+{
+opacity: 0.5;
+}
+.img-container:hover .product-img5
+{
+opacity: 0.5;
+}
+.img-container:hover .product-img6
+{
+opacity: 0.5;
+}
+.img-container:hover .product-img7
+{
+opacity: 0.5;
+}
+.img-container:hover .product-img8
+{
+opacity: 0.5;
+}
+.img-container:hover .product-img9
+{
+opacity: 0.5;
+}
+
+.product h3 {
+font-size: 15px;
+margin-top: 1rem;
+letter-spacing: var(--mainSpacing);
+text-align: center;
+}
+
+.product h4 {
+font-size: 12px;
+margin-top: 0.7rem;
+letter-spacing: var(--mainSpacing);
+color: var(--primaryColor);
+text-align: center;
+}
+
+/* --- ON CLICK STYLINGS --- */
+
+
+
+/* --- end of ON CLICK STYLINGS --- */
+  /* --- End of GALLERY --- */
