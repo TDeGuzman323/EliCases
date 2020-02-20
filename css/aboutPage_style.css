@@ -65,13 +65,12 @@ html,body
     background-repeat: no-repeat;
     background-position: center;
     display: table;
-    position: sticky;
+    position: fixed;
     height: 50%;
-    width: 70%;
+    width: 80%;
     background-size: cover;
-    margin-left: 15%;
+    margin-left: 10%;
     top: 0;
-    bottom: 100;
 }
 /* ----- end of HEADER PHOTO ---- */
 
@@ -79,14 +78,15 @@ html,body
 
 .section-3
 {
-    margin: 75px 200px;
+margin: 450px 300px 100px ;
+overflow: scroll hidden;
 }
 .section-3 .text-wrapper {
-    max-width: 600px;
-    margin: auto;
-    font-size: 2em;
-    line-height: 2em;
-    margin-top: 1.5%;
+max-width: 600px;
+margin: auto;
+font-size: 2em;
+line-height: 2em;
+margin-top: 1.5%;
 }
 /* ----- end of SCROLLABLE - CONTENT ----- */
 
@@ -100,6 +100,7 @@ color: #23415C;
 text-shadow: 2px 2px #B8860B;
 text-align: center;
 margin-bottom: 5%;
+
 }
 
 h4
@@ -221,7 +222,13 @@ margin-top: 10%;
     text-align: center;
     margin: 10%;
 }
-
-
+.section-3
+{
+margin: 430px 50px 20px ;
+overflow: scroll hidden;
 }
-/* ----- end of FOOTER ----- */
+
+h1
+{
+    margin-bottom: 10%;
+}
