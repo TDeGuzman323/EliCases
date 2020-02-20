@@ -190,8 +190,120 @@ html,body
   background-color: #23415C;
   opacity: 1;
   }
-/* ---END OVERLAY BUTTON --- */
+/* ---end of OVERLAY BUTTON --- */
+/* --- SHOPPING CART --- */
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: var(--mainTransition);
+  background: rgb(184, 134, 11, 0.5);
+  z-index: 2;
+  /* visibility: hidden; */
+}
+.cart {
+  position: fixed;
+  top: 8%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  z-index: 3;
+  background: rgb(231, 226, 221);
+  padding: 1.5rem;
+  transition: var(--mainTransition);
+  /* transform: translateX(100%); */
+}
+.showCart {
+  transform: translateX(0);
+}
+.transparentBcg {
+  visibility: visible;
+}
+@media screen and (min-width: 768px) {
+  .cart {
+    width: 30vw;
+    min-width: 450px;
+  }
+}
 
+.close-cart {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.cart h2 {
+  text-align: center;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 2rem;
+  color: var(--primaryColor);
+  font-family: 'Cinzel', serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px var(--accentColor);
+}
+/*---------- Cart Item -------------------- */
+.cart-item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.cart-item img {
+  width: 75px;
+  height: 120px;
+}
+.cart-item h4 {
+  font-size: 15px;
+  letter-spacing: var(--mainSpacing);
+}
+.cart-item h5 {
+  margin: 0.5rem 0;
+  letter-spacing: var(--mainSpacing);
+}
+.item-amount {
+  text-align: center;
+  margin-left: -2.5%;
+}
+.remove-item {
+  color: grey;
+  cursor: pointer;
+}
+.fa-chevron-up,
+.fa-chevron-down {
+  color: var(--accentColor);
+  cursor: pointer;
+}
+
+/* --- CART FOOTER --- */
+.cart-footer {
+  margin-top: 2rem;
+  letter-spacing: var(--mainSpacing);
+  text-align: center;
+}
+
+.cart-footer h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--mainBlack);
+  text-align: center;
+}
+
+.banner-btn
+{
+  padding: 5px 5px;
+  border-radius: 15px 15px;
+  background: rgb(252, 252, 250, 0.25)
+}
+.banner-btn:hover
+{
+  background: var(--primaryColor);
+  color: var(--accentColor);
+}
+/* --- end of CART FOOTER */
+/* --- end of SHOPPING CART --- */
 
 
   /* -------- FOOTER --------*/

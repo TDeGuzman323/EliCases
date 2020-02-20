@@ -6,8 +6,8 @@ html,body
 .navbar
 {
     background-color: #23415C;
-    padding: 10px 0 35px 1%;
-    font-size: 1.2em;
+    padding: 10px 0 15px 1%;
+    font-size: 13px;
     font-family: 'Cinzel', serif;
     font-weight: 700;
 }
@@ -20,7 +20,7 @@ html,body
 
 .navbar-brand img
 {
-    width: 30%;
+    width: 23%;
     height: auto;
 }
 
@@ -62,11 +62,14 @@ html,body
     width: 100%;
     position: center;
     background-size: cover;   
+    border-bottom: 50px groove #23415C;
 }
 
 .container
 {
     width: 70%;
+    align-items: stretch;
+    
 }
 
 .landing-text
@@ -99,13 +102,14 @@ html,body
  }
  .padding
  {
-     padding: 80px 0;
+     padding: 50px 0;
  }
 
  .padding img
  {
      width: 100%;
      height: auto;
+     margin-top: 10%;
  }
 .padding h4
 {
@@ -120,8 +124,9 @@ html,body
 
 .padding #doubleCase
 {
-    width: 75%;
+    width: 80%;
     height: auto;
+    margin-left: -10%;
 }
 
 .padding #handCrafted
@@ -139,12 +144,21 @@ html,body
 {
     text-align: center;
 }
-.padding #cherryCase11
+
+.padding-about
 {
-    width: 50%;
-    height: auto;
-    margin-top: 10%;
-    display: inline-block;
+    margin-top: -15%;
+}
+
+.row-about
+{
+    margin: 5%;
+    display: inline-block
+}
+.row-about p
+{
+    text-align: left;
+    text-indent: 50px;
 }
  h2
  {
@@ -170,7 +184,9 @@ html,body
  h5
  {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
     color:  #B8860B;
+
  }
 
  h5:hover
@@ -202,6 +218,7 @@ html,body
      background-image:  url("../Images/modeliPhone3a.png");
      background-repeat: no-repeat;
      background-position: center;
+     border: 30px groove #23415C;
      display: table;
      position: relative;
      height: 50%;
@@ -254,6 +271,17 @@ html,body
  .row #connect
  {
      margin-top: 10%;
+ }
+
+
+ #landscapeStock
+ {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+    width: 155%;
+    margin-top: 50px;
  }
 
 

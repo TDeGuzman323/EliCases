@@ -27,13 +27,11 @@ width: 100%;
 /* --- NAVBAR --- */
 .navbar
 {
-background-color: var(--primaryColor);
-padding: 8px 0 15px 0;
-font-size: 13px;
-font-family: 'Cinzel', serif;
-font-weight: 700;
-position: sticky;
-justify-content: space-between;
+  background-color: #23415C;
+    padding: 10px 0 15px 1%;
+    font-size: 13px;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
 
 }
 
@@ -45,9 +43,8 @@ padding: 5px 10px 10px 0;
 
 .navbar-brand img
 {
-width: 20%;
-height: auto;
-margin-left: 3%;
+  width: 23%;
+  height: auto;
 }
 
 .navbar-default .navbar-nav li a
@@ -131,7 +128,7 @@ overflow: hidden;
 .bag-btn {
 position: absolute;
 top: 50%;
-right: 28.5%;
+right: 20%;
 background: var(--mainWhite);
 border: none;
 text-transform: uppercase;
@@ -145,7 +142,6 @@ transform: translateY(25%);
 cursor: pointer;
 opacity: 0;
 border-radius: 20px 20px;
-
 }
 
 .bag-btn:hover {
@@ -153,7 +149,6 @@ color: var(--accentColor);
 background-color: var(--primaryColor);
 opacity: 1;
 }
-
 
 .fa-shopping-cart {
 margin-right: 0.5rem;
@@ -319,3 +314,100 @@ text-align: center;
 
 /* --- end of ON CLICK STYLINGS --- */
   /* --- End of GALLERY --- */
+
+  /* --- MEDIA QUERIES ---*/
+  @media (max-width: 768px)
+  {
+    .bag-btn
+    {
+      top: 65%;
+      left: 32%;
+      transform: translateY(15%);
+    }
+
+    .product-img1 {
+      display: block;
+      width: 50%;
+      height: 250px;
+      margin-left: 25%;
+      transition: var(--mainTransition);
+      /* feather into birds */
+      }
+      
+      .product-img2 {
+      display: block;
+      width: 55%;
+      height: 250px;
+      margin-left: 22%;
+      transition: var(--mainTransition);
+      /* chess piece, couboy, lotus flowers */
+      }
+      
+      .product-img3 { 
+      display: block;
+      width: 60%;
+      height: 160px;
+      margin-left: 20%;
+      transition: var(--mainTransition);
+      /* excalibur's sword */
+      }
+      
+      .product-img4 {
+      display: block;
+      width: 50%;
+      height: 250px;
+      margin-left: 25%;
+      transition: var(--mainTransition);
+      /* flower elephant */
+      }
+      
+      .product-img5
+      {
+      display: block;
+      width: 50%;
+      height: 300px;
+      margin-left: 25%;
+      transition: var(--mainTransition);
+      /* geo deer */
+      }
+      
+      .product-img6
+      {
+      display: block;
+      width: 60%;
+      margin-left: 18%;
+      margin-top: 20%;
+      transition: var(--mainTransition);
+      /* philippine flag */
+      }
+      
+      .product-img7
+      {
+      display: block;
+      width: 60%;
+      margin-left: 18%;
+      margin-top: 20%;
+      transition: var(--mainTransition);
+      /* pirate ship */
+      }
+      
+      .product-img8
+      {
+      display: block;
+      width: 55%;
+      height: 250px;
+      margin-left: 23%;
+      transition: var(--mainTransition);
+      /* quote by jrr tolkien, tribal turtle*/
+      }
+      
+      .product-img9
+      {
+      display: block;
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 20%;
+      transition: var(--mainTransition);
+      /* world map */
+      }
+  }
