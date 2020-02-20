@@ -1,0 +1,227 @@
+/* ----- MAIN ----- */
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+/* ----- end of MAIN ----- */
+
+/* ----- NAVBAR ----- */
+.navbar
+{
+    background-color: #23415C;
+    padding: 10px 0 15px 1%;
+    font-size: 13px;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+}
+
+.navbar-brand
+{
+    min-height:55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-brand img
+{
+    width: 23%;
+    height: auto;
+}
+
+.navbar-default .navbar-nav li a
+{
+    color: #B8860B; 
+    margin-top: 15px;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
+{
+    color: #FFF; 
+}
+
+/* ----- CART BUTTON NAV ----- */
+
+.cart-btn {
+    position: relative;
+    cursor: pointer;
+  }
+  .cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #B8860B;
+    padding: 0 5px;
+    border-radius: 30%;
+    color: #FFF;
+  }
+/* ----- end of CART BUTTON NAV ----- */
+/* ----- end of NAVBAR ----- */
+
+/* ----- HEADER PHOTO ----- */
+.header-img
+{
+    background-image:  url("../Images/modeliPhone3a.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    position: sticky;
+    height: 50%;
+    width: 70%;
+    background-size: cover;
+    margin-left: 15%;
+    top: 0;
+    bottom: 100;
+}
+/* ----- end of HEADER PHOTO ---- */
+
+/* ----- SCROLLABLE - CONTENT ----- */
+
+.section-3
+{
+    margin: 75px 200px;
+}
+.section-3 .text-wrapper {
+    max-width: 600px;
+    margin: auto;
+    font-size: 2em;
+    line-height: 2em;
+    margin-top: 1.5%;
+}
+/* ----- end of SCROLLABLE - CONTENT ----- */
+
+/* ----- CONTENT STYLE ----- */
+h1
+{
+font-family: 'Cinzel', serif;
+font-weight: bold;
+font-size: 50px;
+color: #23415C;
+text-shadow: 2px 2px #B8860B;
+text-align: center;
+margin-bottom: 5%;
+}
+
+h4
+{
+font-family: 'Bebas Neue', cursive;
+font-size: 40px;
+color: #23415C;
+text-shadow: 2px 2px #B8860B;
+text-align: center;
+}
+
+p
+{
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+color: #000;
+text-indent: 70px;
+}
+/* ----- end of CONTENT STYLE ----- */
+
+/* ----- FOOTER ----- */
+footer
+{
+width: 100%;
+margin-bottom: -10%;
+padding-bottom: 10px;
+background-color: #23415C;
+padding: 2% 2% 2% 2%;
+color: #B8860B;
+position: relative;
+}
+
+footer, h3
+{
+font-family: 'Montserrat', sans-serif;
+color: #FFF;
+}
+
+h5
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+color: #B8860B;
+}
+
+h5:hover
+{
+font-family: 'Montserrat', sans-serif;
+color: #FFF;
+}
+
+
+.fab
+{
+padding: 15px;
+font-size: 30px;
+color: #FFF;
+}
+
+.fab:hover
+{
+color:#B8860B;
+text-decoration: none;
+}
+
+.icon
+{
+max-width: 200px;
+}
+
+.row #contact
+{
+margin-top: 10%
+}
+
+.row #connect
+{
+margin-top: 10%;
+}
+
+/* media queries */
+
+@media (max-width: 768px)
+{
+.navbar
+{
+    padding: 10px;
+}
+.navbar img
+{
+    margin-top: -10%;
+}
+.landing-text h1 
+{
+    font-size: 800%;
+}
+.landing-text h3
+{
+    font-size: 400%;
+}
+.fa
+{
+    font-size: 20px;
+    padding: 10px
+}
+.icon
+{
+    padding-top: 5%;
+    max-width: 100px;
+}
+
+.padding h2
+{
+    margin: 20%;
+}
+
+.padding h4
+{
+    text-align: center;
+    margin: 10%;
+}
+
+
+}
+/* ----- end of FOOTER ----- */

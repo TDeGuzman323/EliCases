@@ -1,8 +1,13 @@
+/* --- MAIN --- */
 html,body
 {
     height: 100%;
     width: 100%;
 }
+/* --- end of MAIN --- */
+
+
+/* --- NAVBAR --- */
 .navbar
 {
     background-color: #23415C;
@@ -37,20 +42,26 @@ html,body
 
 /* --- CART BUTTON NAV--- */
 
-.cart-btn {
+.cart-btn 
+{
     position: relative;
     cursor: pointer;
-  }
-  .cart-items {
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    background: #B8860B;
-    padding: 0 5px;
-    border-radius: 30%;
-    color: #FFF;
-  }
-  /* --- END OF CART BUTTON NAV--- */
+}
+
+.cart-items 
+{
+position: absolute;
+top: -8px;
+right: -8px;
+background: #B8860B;
+padding: 0 5px;
+border-radius: 30%;
+color: #FFF;
+}
+  /* --- end of CART BUTTON NAV--- */
+  /* --- end of NAVBAR --- */
+
+
 
 /* content */
 
@@ -109,7 +120,7 @@ html,body
  {
      width: 100%;
      height: auto;
-     margin-top: 10%;
+     /* margin-top: 10%; */
  }
 .padding h4
 {
@@ -131,35 +142,20 @@ html,body
 
 .padding #handCrafted
 {
- 
-    margin-top: 22%;
+    margin-top: 35%;
+    height: 325px;
 }
 .padding #customCase
 {
-    width: 100%;
+    width: 150%;
     margin-top: 22%;
 }
 
-.padding .container
+/* .padding .container
 {
     text-align: center;
-}
+} */
 
-.padding-about
-{
-    margin-top: -15%;
-}
-
-.row-about
-{
-    margin: 5%;
-    display: inline-block
-}
-.row-about p
-{
-    text-align: left;
-    text-indent: 50px;
-}
  h2
  {
     font-family: 'Cinzel', serif;
@@ -178,6 +174,7 @@ html,body
  {
     font-family: 'Cinzel', serif;
     font-weight: bold;
+    color: #23415C;
     text-shadow: 2px 2px #B8860B;
  }
 
@@ -197,6 +194,7 @@ html,body
  p
  {
     font-family: 'Montserrat', sans-serif;
+    color: #000;
  }
 
  .btn
@@ -213,19 +211,7 @@ html,body
      color:#B8860B;
      background-color: #23415C;
  }
- #fixed
- {
-     background-image:  url("../Images/modeliPhone3a.png");
-     background-repeat: no-repeat;
-     background-position: center;
-     border: 30px groove #23415C;
-     display: table;
-     position: relative;
-     height: 50%;
-     width: 70%;
-     background-size: cover;
-     margin-left: 15%;
- }
+
 
 /* footer */
  footer
@@ -289,10 +275,10 @@ html,body
 
 @media (max-width: 768px)
 {
-   .navbar
-   {
-        padding: 10px;
-   }
+    .navbar
+    {
+            padding: 10px;
+    }
     .navbar img
     {
         margin-top: -10%;
@@ -320,12 +306,33 @@ html,body
     {
         margin: 20%;
     }
-   
     .padding h4
     {
         text-align: center;
-        margin: 10%;
+        margin: 5%;
     }
 
-    
+    p
+    {
+        margin-top: 25px;
+    }
+
+    .padding #doubleCase
+    {
+        width: 80%;
+        height: auto;
+        margin: 15px 55px 55px 55px;
+    }
+
+    .padding #handCrafted
+    {
+        margin-top: 25px;
+        margin-bottom: 100px;
+        height: 325px;
+    }
+    .padding #customCase
+    {
+        width: 100%;
+        margin-top: 10%;
+    }    
 }
