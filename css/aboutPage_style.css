@@ -1,8 +1,8 @@
 /* ----- MAIN ----- */
 html,body
 {
-    height: 100%;
-    width: 100%;
+height: 100%;
+width: 100%;
 }
 
 /* ----- end of MAIN ----- */
@@ -10,67 +10,67 @@ html,body
 /* ----- NAVBAR ----- */
 .navbar
 {
-    background-color: #23415C;
-    padding: 10px 0 15px 1%;
-    font-size: 13px;
-    font-family: 'Cinzel', serif;
-    font-weight: 700;
+background-color: #23415C;
+padding: 10px 0 15px 1%;
+font-size: 13px;
+font-family: 'Cinzel', serif;
+font-weight: 700;
 }
 
 .navbar-brand
 {
-    min-height:55px;
-    padding: 0 15px 5px;
+min-height:55px;
+padding: 0 15px 5px;
 }
 
 .navbar-brand img
 {
-    width: 23%;
-    height: auto;
+width: 23%;
+height: auto;
 }
 
 .navbar-default .navbar-nav li a
 {
-    color: #B8860B; 
-    margin-top: 15px;
+color: #B8860B; 
+margin-top: 15px;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
 {
-    color: #FFF; 
+color: #FFF; 
 }
 
 /* ----- CART BUTTON NAV ----- */
 
 .cart-btn {
-    position: relative;
-    cursor: pointer;
-  }
-  .cart-items {
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    background: #B8860B;
-    padding: 0 5px;
-    border-radius: 30%;
-    color: #FFF;
-  }
+position: relative;
+cursor: pointer;
+}
+.cart-items {
+position: absolute;
+top: -8px;
+right: -8px;
+background: #B8860B;
+padding: 0 5px;
+border-radius: 30%;
+color: #FFF;
+}
 /* ----- end of CART BUTTON NAV ----- */
 /* ----- end of NAVBAR ----- */
 
 /* ----- HEADER PHOTO ----- */
 .header-img
 {
-    background-image:  url("../Images/modeliPhone3a.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    display: table;
-    position: fixed;
-    height: 50%;
-    width: 80%;
-    background-size: cover;
-    margin-left: 10%;
-    top: 0;
+background-image:  url("../Images/modeliPhone3a.png");
+background-repeat: no-repeat;
+background-position: center;
+display: table;
+position: fixed;
+height: 50%;
+width: 80%;
+background-size: cover;
+margin-left: 10%;
+top: 0;
 }
 /* ----- end of HEADER PHOTO ---- */
 
@@ -187,41 +187,42 @@ margin-top: 10%;
 {
 .navbar
 {
-    padding: 10px;
+padding: 10px;
 }
 .navbar img
 {
-    margin-top: -10%;
+margin-top: -10%;
 }
 .landing-text h1 
 {
-    font-size: 800%;
+font-size: 800%;
 }
 .landing-text h3
 {
-    font-size: 400%;
+font-size: 400%;
 }
 .fa
 {
-    font-size: 20px;
-    padding: 10px
+font-size: 20px;
+padding: 10px
 }
 .icon
 {
-    padding-top: 5%;
-    max-width: 100px;
+padding-top: 5%;
+max-width: 100px;
 }
 
 .padding h2
 {
-    margin: 20%;
+margin: 20%;
 }
 
 .padding h4
 {
-    text-align: center;
-    margin: 10%;
+text-align: center;
+margin: 10%;
 }
+
 .section-3
 {
 margin: 430px 50px 20px ;
@@ -230,5 +231,5 @@ overflow: scroll hidden;
 
 h1
 {
-    margin-bottom: 10%;
+margin-bottom: 10%;
 }

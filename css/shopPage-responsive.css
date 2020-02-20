@@ -4,7 +4,9 @@ html,body
     width: 100%;
     padding: 10px;
     transition: all 250ms ease-in-out;
+    margin: 0;
 }
+
 .navbar
 {
     background-color: #23415C;
@@ -221,7 +223,7 @@ html,body
 }
 .row #iPhoneLineUp
 {
-    padding: 130px 0 0;
+    padding: 135px 0 0;
     margin-left: 25%;  
     width: 50%;
     height: 20%;
@@ -229,11 +231,10 @@ html,body
 
  .row #SamsungLineUp
  {
-    padding: 130px 0 0;
+    padding: 135px 0 0;
     margin-left: 18%;
     width: 62%;
     height: 20%;
-    transition: 8s;
  }
 
  .row #labelPhone
@@ -396,6 +397,39 @@ html,body
     .padding img
     {
         margin-top: 10%;
+    }
+
+    .row #iPhoneLineUp
+    {
+        padding: 25px 0 0;
+        margin-left: 25%; 
+        margin-top: 2.5%; 
+        width: 50%;
+        height: 20%;
+    }
+    .row #labelPhone
+    {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .row #SamsungLineUp
+    {
+        padding: 25px 0 0;
+        margin-left: 18%;
+        margin-top: -3%;
+        width: 62%;
+        height: 20%;
+    }
+
+    .phoneHeader h1
+    {
+        font-size: 40px;
+    }
+
+    .phoneHeader h3
+    {
+        font-size: 20px;
     }
 }
 
