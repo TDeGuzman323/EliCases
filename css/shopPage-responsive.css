@@ -19,12 +19,12 @@ html,body
 .navbar-brand
 {
     min-height:55px;
-    padding: 0 10px 0;
+    padding: 0 15px 5px;
 }
 
 .navbar-brand img
 {
-    width: 24%;
+    width: 23%;
     height: auto;
 }
 

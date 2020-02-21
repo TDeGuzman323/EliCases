@@ -1,0 +1,148 @@
+:root {
+    --primaryColor:#23415C;
+    --accentColor: #B8860B; 
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all .75s linear;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+color: var(--mainBlack);
+background: var(--mainWhite);
+font-family: 'Montserrat', sans-serif;
+}
+
+html,body
+{
+height: 100%;
+width: 100%;
+}
+
+/* --- NAVBAR --- */
+.navbar
+{
+  background-color: #23415C;
+    padding: 10px 0 15px 1%;
+    font-size: 13px;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+
+}
+
+.navbar-brand
+{
+min-height:55px;
+padding: 5px 10px 10px 0;
+}
+
+.navbar-brand img
+{
+    width: 23%;
+    height: auto;
+}
+
+.navbar-default .navbar-nav li a
+{
+color: var(--accentColor); 
+margin-top: 12px;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
+{
+color: var(--mainWhite); 
+} 
+
+/* --- CART BUTTON NAV--- */
+
+.shopcCart-btn {
+position: relative;
+cursor: pointer;
+}
+.shopCart-items {
+position: absolute;
+top: 0px;
+right: 0px;
+background: var(--accentColor);
+padding: 0 5px;
+border-radius: 30%;
+color: var(--mainWhite);
+}
+/* --- end of CART BUTTON NAV--- */
+/* --- end of NAVBAR --- */
+
+/* --- CONTENT --- */
+/* --- end of CONTENT --- */
+
+
+/* --- FOOTER --- */
+
+footer
+{
+    width: 100%;
+    margin-bottom: -10%;
+    padding-bottom: 10px;
+    background-color: #23415C;
+    padding: 2% 2% 2% 2%;
+    color: #B8860B;
+    position: relative;
+}
+
+footer, h3
+{
+   color: #FFF;
+   margin-top: 10%;
+}
+
+h5:hover
+{
+    color:#B8860B
+}
+
+.fab
+{
+    padding: 15px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.fab:hover
+{
+    color:#B8860B;
+    text-decoration: none;
+}
+
+
+.FAQ
+{
+    padding: 15px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.FAQ:hover
+{
+    color:#B8860B;
+    text-decoration: none;
+}
+
+.icon
+{
+    max-width: 200px;
+}
+
+.row #contact
+{
+    margin-top: 10%
+}
+
+.row #connect
+{
+    margin-top: 10%;
+}
+/* --- end of FOOTER --- */
