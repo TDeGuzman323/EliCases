@@ -81,13 +81,15 @@ top: 0;
 margin: 450px 300px 100px ;
 overflow: scroll hidden;
 }
+
 .section-3 .text-wrapper {
 max-width: 600px;
 margin: auto;
 font-size: 2em;
 line-height: 2em;
-margin-top: 1.5%;
+margin-top: 2%;
 }
+
 /* ----- end of SCROLLABLE - CONTENT ----- */
 
 /* ----- CONTENT STYLE ----- */
@@ -121,7 +123,9 @@ text-indent: 70px;
 }
 /* ----- end of CONTENT STYLE ----- */
 
-/* ----- FOOTER ----- */
+
+/* ---------------- FOOTER ------------- */
+
 footer
 {
 width: 100%;
@@ -135,32 +139,32 @@ position: relative;
 
 footer, h3
 {
-font-family: 'Montserrat', sans-serif;
 color: #FFF;
-}
-
-h5
-{
+margin-top: 10%;
 font-family: 'Montserrat', sans-serif;
-font-size: 15px;
-color: #B8860B;
 }
-
-h5:hover
-{
-font-family: 'Montserrat', sans-serif;
-color: #FFF;
-}
-
 
 .fab
 {
 padding: 15px;
-font-size: 30px;
+font-size: 25px;
 color: #FFF;
 }
 
 .fab:hover
+{
+color:#B8860B;
+text-decoration: none;
+}
+
+.FAQ
+{
+padding: 15px;
+font-size: 25px;
+color: #FFF;
+}
+
+.FAQ:hover
 {
 color:#B8860B;
 text-decoration: none;
@@ -173,7 +177,19 @@ max-width: 200px;
 
 .row #contact
 {
-margin-top: 10%
+margin-top: 10%;
+}
+
+.row h5
+{
+font-size: 15px;
+color: #B8860B;
+
+}
+
+.row:hover h5
+{
+color: #FFF;
 }
 
 .row #connect
@@ -181,46 +197,36 @@ margin-top: 10%
 margin-top: 10%;
 }
 
-/* media queries */
+
+/* -------- end of FOOTER -------- */
+
+
+/* -------- MEDIA QUERIES -------- */
 
 @media (max-width: 768px)
 {
+
+    /* --- NAVBAR MQ --- */
 .navbar
 {
 padding: 10px;
 }
+
 .navbar img
 {
 margin-top: -10%;
 }
-.landing-text h1 
-{
-font-size: 800%;
-}
-.landing-text h3
-{
-font-size: 400%;
-}
+
 .fa
 {
 font-size: 20px;
 padding: 10px
 }
+
 .icon
 {
 padding-top: 5%;
-max-width: 100px;
-}
-
-.padding h2
-{
-margin: 20%;
-}
-
-.padding h4
-{
-text-align: center;
-margin: 10%;
+max-width: 150px;
 }
 
 .section-3
@@ -231,5 +237,8 @@ overflow: scroll hidden;
 
 h1
 {
+margin-top: 50px;
 margin-bottom: 10%;
+}
+
 }

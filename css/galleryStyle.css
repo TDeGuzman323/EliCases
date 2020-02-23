@@ -404,76 +404,77 @@ text-align: center;
 /* --- end of ON CLICK STYLINGS --- */
   /* --- End of GALLERY --- */
 
-/* ----- FOOTER ----- */
-
-footer
-{
-    width: 100%;
-    margin-bottom: -10%;
-    padding-bottom: 10px;
-    background-color: #23415C;
-    padding: 2% 2% 2% 2%;
-    color: #B8860B;
-    position: relative;
-}
-
-footer h3
-{
+  footer
+  {
+  width: 100%;
+  margin-bottom: -10%;
+  padding-bottom: 10px;
+  background-color: #23415C;
+  padding: 2% 2% 2% 2%;
+  color: #B8860B;
+  position: relative;
+  }
+  
+  footer, h3
+  {
   color: #FFF;
   margin-top: 10%;
-}
-
-h5:hover
-{
-    color:#B8860B
-}
-
-.fab
-{
-    padding: 15px;
-    font-size: 30px;
-    color: #FFF;
-}
-
-.fab:hover
-{
-    color:#B8860B;
-    text-decoration: none;
-}
-
-
-.FAQ
-{
-    padding: 15px;
-    font-size: 30px;
-    color: #FFF;
-}
-
-.FAQ:hover
-{
-    color:#B8860B;
-    text-decoration: none;
-}
-
-.icon
-{
-    max-width: 200px;
-}
-
-.row #contact
-{
-    margin-top: 10%
-}
-
-.row #connect
-{
-    margin-top: 10%;
-}
-/* ----- end of FOOTER ----- */
-
-
-
-
+  }
+  
+  .fab
+  {
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+  }
+  
+  .fab:hover
+  {
+  color:#B8860B;
+  text-decoration: none;
+  }
+  
+  .FAQ
+  {
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+  }
+  
+  .FAQ:hover
+  {
+  color:#B8860B;
+  text-decoration: none;
+  }
+  
+  .icon
+  {
+  max-width: 200px;
+  }
+  
+  .row #contact
+  {
+  margin-top: 10%
+  }
+  
+  #contact h5
+  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #B8860B;
+  }
+  
+  #contact:hover h5
+  {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  }
+  
+  .row #connect
+  {
+  margin-top: 10%;
+  }
+  /* -------- end of FOOTER -------- */
 
 
 
@@ -587,5 +588,10 @@ h5:hover
       margin-top: 20%;
     
       /* world map */
+      }
+
+      .icon
+      {
+      max-width: 150px;
       }
   }
