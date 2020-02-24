@@ -7,6 +7,7 @@ transition: all 250ms ease-in-out;
 margin: 0;
 }
 
+/* -------- NAVBAR -------- */
 .navbar
 {
 background-color: #23415C;
@@ -31,13 +32,41 @@ height: auto;
 .navbar-default .navbar-nav li a
 {
 color: #B8860B; 
-margin-top: 12px;
+margin-top: 15px;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
 {
 color: #FFF; 
 }
+
+/* -------- SHOP BUTTON, DROPDOWN -------- */
+nav ul li 
+{
+    list-style: none;
+    position: relative;
+}
+
+nav ul li ul
+{
+    position: relative;
+    left: 0;
+    background: #23415C;
+    display: none;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+nav ul li ul li
+{
+    display: block;
+    width: 200px;
+}
+
+/* -------- end of SHOP BUTTON, DROPDOWN -------- */
 
 
 /* -------- CART BUTTON NAV -------- */
@@ -48,8 +77,8 @@ cursor: pointer;
 }
 .cart-items {
 position: absolute;
-top: -8px;
-right: -8px;
+top: 0px;
+right: 0px;
 background: #B8860B;
 padding: 0 5px;
 border-radius: 30%;
@@ -57,7 +86,7 @@ color: #FFF;
 }
 /* -------- end of CART BUTTON NAV-------- */
 
-/* slider */
+/* -------- SLIDER -------- */
 .container 
 {
 position: relative;
@@ -152,8 +181,8 @@ background-position: center;
 75% {left: -200%;}
 100% {left: -200%;}
 }
-
-/* ------ SLIDER MEDIA QUERIES ------ */
+/* -------- end of SLIDER------- */
+/* -------- SLIDER MEDIA QUERIES --------- */
 @media (max-width: 768px)
 {
 .container .slider .slide .caption
@@ -164,7 +193,6 @@ right: 20px;
 padding: 20px;
 background: #000;
 opacity: 75%;
-
 }
 
 .container .slider .slide .caption h1
@@ -177,7 +205,6 @@ font-size: 60px;
 color: #23415C;
 text-shadow: 2px 2px #B8860B ;
 }
-
 
 .container .slider .slide .caption h3
 {

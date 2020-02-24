@@ -7,7 +7,7 @@ width: 100%;
 
 /* ----- end of MAIN ----- */
 
-/* ----- NAVBAR ----- */
+/* -------- NAVBAR -------- */
 .navbar
 {
 background-color: #23415C;
@@ -40,22 +40,57 @@ margin-top: 15px;
 color: #FFF; 
 }
 
-/* ----- CART BUTTON NAV ----- */
+/* -------- SHOP BUTTON, DROPDOWN -------- */
+nav ul li 
+{
+    list-style: none;
+    position: relative;
+}
 
-.cart-btn {
+nav ul li ul
+{
+    position: relative;
+    left: 0;
+    background: #23415C;
+    display: none;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    text-decoration: none;
+   
+}
+
+nav ul li ul li
+{
+    display: block;
+    width: 200px;
+}
+
+/* -------- end of SHOP BUTTON, DROPDOWN -------- */
+
+/* -------- CART BUTTON NAV -------- */
+
+.cart-btn 
+{
 position: relative;
 cursor: pointer;
 }
-.cart-items {
+
+.cart-items 
+{
 position: absolute;
-top: -8px;
-right: -8px;
+top: 0px;
+right: 0px;
 background: #B8860B;
 padding: 0 5px;
 border-radius: 30%;
 color: #FFF;
 }
-/* ----- end of CART BUTTON NAV ----- */
+/* --------- end of CART BUTTON NAV --------- */
+/* --------- end of NAVBAR --------- */
+
 /* ----- end of NAVBAR ----- */
 
 /* ----- HEADER PHOTO ----- */
@@ -212,9 +247,20 @@ margin-top: 10%;
 padding: 10px;
 }
 
+.navbar-default .navbar-nav li a
+{
+margin-top: 10px;
+}
+
 .navbar img
 {
 margin-top: -10%;
+}
+
+.cart-items 
+{
+top: -5px;
+right: 305px;
 }
 
 .fa

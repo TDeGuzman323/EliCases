@@ -1,8 +1,8 @@
 /* -------- MAIN -------- */
 html,body
 {
-    height: 100%;
-    width: 100%;
+height: 100%;
+width: 100%;
 }
 /* -------- end of MAIN -------- */
 
@@ -40,6 +40,34 @@ margin-top: 15px;
 color: #FFF; 
 }
 
+/* -------- SHOP BUTTON, DROPDOWN -------- */
+nav ul li 
+{
+    list-style: none;
+    position: relative;
+}
+
+nav ul li ul
+{
+    position: relative;
+    left: 0;
+    background: #23415C;
+    display: none;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+nav ul li ul li
+{
+    display: block;
+    width: 200px;
+}
+
+/* -------- end of SHOP BUTTON, DROPDOWN -------- */
+
 /* -------- CART BUTTON NAV -------- */
 
 .cart-btn 
@@ -51,8 +79,8 @@ cursor: pointer;
 .cart-items 
 {
 position: absolute;
-top: -8px;
-right: -8px;
+top: 0px;
+right: 0px;
 background: #B8860B;
 padding: 0 5px;
 border-radius: 30%;
@@ -275,66 +303,84 @@ margin-top: 10%;
 /* -------- MEDIA QUERIES ------ */
 @media (max-width: 768px)
 {
-    .navbar
-    {
-    padding: 10px;
-    }
-    .navbar img
-    {
-    margin-top: -10%;
-    }
-    .landing-text h1 
-    {
-    font-size: 800%;
-    }
-    .landing-text h3
-    {
-    font-size: 400%;
-    }
-    .fa
-    {
-    font-size: 20px;
-    padding: 10px
-    }
-    .icon
-    {
-    padding-top: 5%;
-    max-width: 150px;
-    }
 
-    .padding h2
-    {
-    margin: 20%;
-    }
+.navbar
+{
+padding: 5px;
+}
 
-    .padding h4
-    {
-    text-align: center;
-    margin: 5%;
-    }
+.navbar-default .navbar-nav li a
+{
+margin-top: 10px;
+}
 
-    p
-    {
-    margin-top: 25px;
-    }
+.navbar img
+{
+margin-top: -10%;
+}
 
-    .padding #doubleCase
-    {
-    width: 80%;
-    height: auto;
-    margin: 15px 55px 55px 55px;
-    }
+.cart-items 
+{
+top: -5px;
+right: 305px;
+}
 
-    .padding #handCrafted
-    {
-    margin-top: 25px;
-    margin-bottom: 100px;
-    height: 325px;
-    }
-    .padding #customCase
-    {
-    width: 100%;
-    margin-top: 10%;
-    }    
+.landing-text h1 
+{
+font-size: 800%;
+}
+
+.landing-text h3
+{
+font-size: 400%;
+}
+
+.fa
+{
+font-size: 20px;
+padding: 10px
+}
+
+.icon
+{
+padding-top: 5%;
+max-width: 150px;
+}
+
+.padding h2
+{
+margin: 20%;
+}
+
+.padding h4
+{
+text-align: center;
+margin: 5%;
+}
+
+p
+{
+margin-top: 25px;
+}
+
+.padding #doubleCase
+{
+width: 80%;
+height: auto;
+margin: 15px 55px 55px 55px;
+}
+
+.padding #handCrafted
+{
+margin-top: 25px;
+margin-bottom: 100px;
+height: 325px;
+}
+
+.padding #customCase
+{
+width: 100%;
+margin-top: 10%;
+}    
 }
 /* -------- end of MEDIA QUERIES ------ */

@@ -22,37 +22,47 @@
 </head>
 <body>
 
-<!-------- navbar -------->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="../Images/eliCasesLogo.jpg"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse-main">
-                <ul class="nav navbar-nav navbar-right">
+<!-------- NAVBAR  -------->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="../Images/eliCasesLogo.jpg"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-main">
+            <ul class="nav navbar-nav navbar-right">
                 <li><a href="../html-pages/index-responsive.html" class="active">HOME</a></li>
                 <li><a href="../html-pages/aboutPage-responsive.html">ABOUT ELI</a></li>
-                <li><a href="../html-pages/shopPage-responsive.html">SHOP</a></li>
+
+                <!--------- DROP DOWN BUTTON, NAV --------->
+                <li class="dropdown"><a href="../html-pages/shopPage-responsive.html">SHOP &nbsp;<i class="fas fa-caret-square-down"></i></a>
+                    <ul> 
+                        <li><a href="iPhonePage-responsive.html">iPhone</a></li>
+                        <li><a href="samsungPage-responsive.html">Samsung</a></li>
+                        <li><a href="gallery.html">Design Gallery</a></li>
+                    </ul>
+                </li>
+                <!-------- end of DROP DOWN BUTTON, NAV -------->
+
                 <li><a href="../html-pages/gallery.html">GALLERY</a></li>
                 <li><a href="#">
                     <span class="shopcart-icon">SHOPPING CART &nbsp;&nbsp;<i class="fas fa-cart-plus"></i></span>
-                    <div class="shopCart-items">0</div>
+                    <div class="cart-items">0</div>
                 </a></li>
-                <li><a href="#contact">CONTACT US &nbsp;&nbsp;&nbsp;</a></li>
-                </ul>
-            </div>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
         </div>
-    </nav>     
-<!-------- end of nav -------->
+    </div>
+</nav>
+<!-------- end of NAVBAR  -------->
 
 <!-------- CONTENT  -------->
 <!-- HEADER -->
