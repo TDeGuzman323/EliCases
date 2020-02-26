@@ -1163,24 +1163,66 @@
 
 <!-------- FOOTER -------->
 <footer class="container-fluid text-center">
+<!-- CONTACT, EMAIL -->
     <div class="row">
         <div class="col-sm-3">
             <h3 id="contact">Contact Us</h3>
-            <br>
-            <h5> infoelicases@gmail.com</h5>
+<!-- MODAL, CONTACT FORM -->
+            <!-- modal button trigger -->
+            <button type="button" class="modBttn_footer" data-toggle="modal" data-target="#contactModal"><img src="../Images/elicases_contactModalButton.png" width="100px"></button>
+                    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="exampleModalLabel">We'd Love to Hear From You</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+            <!-- modal content -->
+                                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/xknbrwle" method="post">
+                                    <fieldset id="fs-frm-inputs">
+                                        <label for="full-name">Full Name</label>
+                                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                                        <br><br>
+                                        <label for="email-address">Email Address</label>
+                                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                                        <br><br>
+                                        <label for="message">Message</label>
+                                        <textarea rows="5" name="message" id="message" placeholder="Tell us... What's on your mind?" required=""></textarea>
+                                        <br><br>
+                                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                                    </fieldset>
+                                    <input class ="modBttn" type="submit" value="Submit">
+                                </form>
+            <!-- end of modal content -->
+                            </div>
+                            <div class="modal-footer"></div>
+                                <img src="../Images/eliSlogan.png" width="300px">
+                            </div>
+                            </div>
+                        </div>
         </div>
+<!-- MODAL, CONTACT FORM -->
+
+<!-- CONNECT, SOCIAL MEDIA -->
         <div class="col-sm-3">
             <h3 id="connect">Connect</h3>
             <a data href="https://www.facebook.com/ShopEliCases/" class="fab fa-facebook-square"></a>
             <a data href="https://www.instagram.com/elicases/" class="fab fa-instagram-square"></a>
             <a data href="https://www.pinterest.com/elicases/" class="fab fa-pinterest-square"></a>
         </div>
+<!-- end of CONNECT, SOCIAL MEDIA -->
 
+<!-- FREQUENTLY ASKED QUESTIONS -->
         <div class="col-sm-3">
             <h3 id="faqTitle">Frequently Asked Questions</h3>
             <a href="../html-pages/frequentlyAsked.html" class="fas fa-question-circle FAQ"></a>
         </div>
+<!-- end of FREQUENTLY ASKED QUESTIONS -->
 
+<!-- ELICASES ICON, no function  -->
         <div class="col-sm-3">
             <img src="../Images/elicasesLogoWoodBG.png" class="icon">  
         </div>

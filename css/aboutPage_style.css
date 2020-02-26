@@ -215,6 +215,98 @@ max-width: 200px;
 margin-top: 10%;
 }
 
+/* -------- CONTACT MODAL BUTTONS, TRIGGER & SUBMIT -------- */
+
+.modBttn_footer
+{
+font-family: 'Cinzel', serif;
+font-weight: bolder;
+font-size: 15px;
+color: #FFF;
+margin-top: 5%;
+margin-bottom: 30px;
+margin-left: 0px;
+border-radius: 15px 15px;
+padding: 10px 25px 10px 25px;
+}
+
+.modBttn_footer:hover
+{
+color:#B8860B;
+background-color: #23415C;
+}
+
+.modBttn
+{
+font-family: 'Cinzel', serif;
+font-weight: bolder;
+font-size: 15px;
+color:#B8860B;
+background-color: #23415C;
+margin-top: 5%;
+margin-bottom: 30px;
+margin-left: 0px;
+border-radius: 15px 15px;
+padding: 10px 25px 10px 25px;
+}
+
+.modBttn:hover
+{
+background-color: #FFF;
+color: black
+}
+/* -------- end of CONTACT MODAL BUTTONS, TRIGGER & SUBMIT -------- */
+
+/* -------- MODAL CONTENT -------- */
+
+.modal-body
+{
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+color: #000;   
+width: 100%;
+margin-top: 10px;
+}
+
+.modal-header h4
+{
+font-family: 'Cinzel', serif;
+font-weight: bold;
+font-size: 30px;
+color: #23415C;
+text-shadow: 2px 2px #B8860B;
+}
+
+label
+{
+font-family: 'Bebas Neue', cursive;
+font-size: 300%;
+font-weight: bold;
+color: #23415C;
+text-shadow: 2.5px 2.5px #B8860B;
+}
+
+input
+{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+border-radius: 10px 10px;
+box-sizing: border-box;
+}
+
+textarea
+{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+border-radius: 10px 10px;
+box-sizing: border-box;
+}
+
+/* -------- end of MODAL CONTENT -------- */
+
+
 .row h5
 {
 font-size: 15px;
