@@ -1,0 +1,444 @@
+:root {
+    --primaryColor:#23415C;
+    --accentColor: #B8860B; 
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    /* --mainTransition: all .75s linear; */
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    MAIN                                    */
+/* -------------------------------------------------------------------------- */
+
+html,body
+{
+height: 100%;
+width: 100%;
+}
+
+/* ------------------------------- end of MAIN ------------------------------ */
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   NAVBAR                                   */
+/* -------------------------------------------------------------------------- */
+
+.navbar
+{
+background-color: #23415C;
+padding: 10px 0 15px 1%;
+font-size: 13px;
+font-family: 'Cinzel', serif;
+font-weight: 700;
+}
+
+.navbar-brand
+{
+min-height:55px;
+padding: 0 15px 5px;
+}
+
+.navbar-brand img
+{
+width: 23%;
+height: auto;
+}
+
+.navbar-default .navbar-nav li a
+{
+color: #B8860B; 
+margin-top: 15px;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-bar li a:active
+{
+color: #FFF; 
+}
+
+/* -------- SHOP BUTTON, DROPDOWN -------- */
+nav ul li 
+{
+    list-style: none;
+    position: relative;
+}
+
+nav ul li ul
+{
+    position: relative;
+    left: 0;
+    background: #23415C;
+    display: none;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+nav ul li ul li
+{
+    display: block;
+    width: 200px;
+}
+
+/* -------- end of SHOP BUTTON, DROPDOWN -------- */
+
+/* -------- CART BUTTON NAV -------- */
+
+.cart-btn 
+{
+position: relative;
+cursor: pointer;
+}
+
+.cart-items 
+{
+position: absolute;
+top: 0px;
+right: 0px;
+background: #B8860B;
+padding: 0 5px;
+border-radius: 30%;
+color: #FFF;
+}
+/* --------- end of CART BUTTON NAV --------- */
+
+/* ------------------------------ end of NAVBAR ----------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   HEADER                                   */
+/* -------------------------------------------------------------------------- */
+
+.shopHeader h1
+{
+font-family: 'Bebas Neue', cursive;
+color: var(--primaryColor);
+text-shadow: 3px 3px var(--accentColor);
+font-size: 100px;
+text-align: center;
+margin-top: 8%;
+}
+
+/* ------------------------------ end of HEADER ----------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   CONTENT                                  */
+/* -------------------------------------------------------------------------- */
+.shopBox
+{
+background-color: var(--primaryColor);
+box-sizing: border-box;
+position: relative;
+overflow: hidden;
+border-radius: 15px 15px;
+transform: translate (-50%, -50%);
+max-width: 95%;
+height: 85%;
+top: 3%;
+left: 2.5%;
+padding: 15px;
+}
+
+.shopBox h2
+{
+font-family: 'Bebas Neue', cursive;
+color: var(--accentColor);
+text-shadow: 3px 3px var(--mainWhite);
+font-size: 90px;
+text-align: center;
+}
+
+.cartBox
+{
+background-color: var(--mainWhite);
+position: relative;
+overflow: hidden;
+box-sizing: border-box;
+box-shadow: 20px 20px var(--accentColor);
+border-radius: 10px 10px;
+transform: translate (-50%, -50%);
+max-width: 90%;
+height: 75%;
+top: 2%;
+left: 5%;
+padding: 15px;
+}
+
+
+
+
+/* ----------------------------- end of CONTENT ----------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                          -------- FOOTER --------                          */
+/* -------------------------------------------------------------------------- */
+
+footer
+{
+width: 100%;
+margin-top: 100%;
+margin-bottom: -5%;
+padding-bottom: 5px;
+background-color: #23415C;
+padding: 2% 2% 2% 2%;
+color: #B8860B;
+position: relative;
+}
+
+footer, h3
+{
+color: #FFF;
+margin-top: 10%;
+}
+
+.fab
+{
+padding: 15px;
+font-size: 25px;
+color: #FFF;
+}
+
+.fab:hover
+{
+color:#B8860B;
+text-decoration: none;
+}
+
+.FAQ
+{
+padding: 15px;
+font-size: 25px;
+color: #FFF;
+}
+
+.FAQ:hover
+{
+color:#B8860B;
+text-decoration: none;
+}
+
+.icon
+{
+max-width: 200px;
+}
+
+.row #contact
+{
+margin-top: 10%;
+font-family: 'Montserrat', sans-serif;
+}
+
+/* -------- CONTACT MODAL BUTTONS, TRIGGER & SUBMIT -------- */
+
+.modBttn_footer
+{
+font-family: 'Cinzel', serif;
+font-weight: bolder;
+font-size: 15px;
+color: #FFF;
+margin-top: 5%;
+margin-bottom: 30px;
+margin-left: 0px;
+border-radius: 15px 15px;
+padding: 10px 25px 10px 25px;
+}
+
+.modBttn_footer:hover
+{
+color:#B8860B;
+background-color: #23415C;
+}
+
+.modBttn
+{
+font-family: 'Cinzel', serif;
+font-weight: bolder;
+font-size: 15px;
+color:#B8860B;
+background-color: #23415C;
+margin-top: 5%;
+margin-bottom: 30px;
+margin-left: 0px;
+border-radius: 15px 15px;
+padding: 10px 25px 10px 25px;
+}
+
+.modBttn:hover
+{
+background-color: #FFF;
+color: black
+}
+/* -------- end of CONTACT MODAL BUTTONS, TRIGGER & SUBMIT -------- */
+
+/* -------- MODAL CONTENT -------- */
+
+.modal-body
+{
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+color: #000;   
+width: 100%;
+margin-top: 10px;
+}
+
+.modal-header h4
+{
+font-family: 'Cinzel', serif;
+font-weight: bold;
+font-size: 30px;
+color: #23415C;
+text-shadow: 2px 2px #B8860B;
+}
+
+label
+{
+font-family: 'Bebas Neue', cursive;
+font-size: 300%;
+font-weight: bold;
+color: #23415C;
+text-shadow: 2.5px 2.5px #B8860B;
+}
+
+input
+{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+border-radius: 10px 10px;
+box-sizing: border-box;
+}
+
+textarea
+{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+border-radius: 10px 10px;
+box-sizing: border-box;
+}
+
+/* -------- end of MODAL CONTENT -------- */
+
+.row #connect
+{
+margin-top: 10%;
+font-family: 'Montserrat', sans-serif;
+}
+
+.row #faqTitle
+{
+font-family: 'Montserrat', sans-serif;
+}
+
+/* ------------------------------ end of FOOTER ----------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                        -------- MEDIA QUERIES ------                       */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 768px)
+{
+
+.navbar
+{
+padding: 5px;
+}
+
+.navbar-default .navbar-nav li a
+{
+margin-top: 10px;
+}
+
+.navbar img
+{
+margin-top: -10%;
+}
+
+.fa
+{
+font-size: 20px;
+padding: 10px
+}
+
+.cart-btn 
+{
+position: relative;
+cursor: pointer;
+}
+
+.cart-items 
+{
+position: absolute;
+top: -8px;
+right: 325px;
+background: #B8860B;
+padding: 0 5px;
+border-radius: 30%;
+color: #FFF;
+}
+
+.shopHeader
+{
+margin-top: 35%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.shopHeader h1
+{
+font-size: 85px;
+}
+
+.shopBox
+{
+position: relative;
+overflow: hidden;
+transform: translate (-50%, -50%);
+margin-top: 2%;
+margin-left: 2.8%;
+max-width: 90%;
+height: 85%;
+}
+
+.shopBox h2
+{
+font-size: 50px;
+}
+
+.cartBox
+{
+max-width: 90%;
+height: 75%;
+margin-top: -2%;
+margin-left: -1.8%;
+}
+
+
+.icon
+{
+padding-top: 5%;
+max-width: 150px;
+}
+
+.padding h2
+{
+margin: 20%;
+}
+
+.padding h4
+{
+text-align: center;
+margin: 5%;
+}
+
+p
+{
+margin-top: 25px;
+}
+
+ 
+}
+
+/* -------------------------- end of MEDIA QUERIES -------------------------- */

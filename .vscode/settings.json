@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "connectionTimeout": 30,
+            "database": "eliCases",
+            "dialect": "MySQL",
+            "isActive": false,
+            "isConnected": false,
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "name": "MySQL_db",
+            "password": "PadrePio",
+            "port": 3306,
+            "server": "LocalHost",
+            "username": "root"
+        }
+    ]
+}

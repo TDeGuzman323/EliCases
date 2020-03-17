@@ -26,7 +26,7 @@ CREATE TABLE `products` (
   `product_id` int NOT NULL,
   `product_cat` int NOT NULL,
   `product_brand` int NOT NULL,
-  `product_title` varchar(225) NOT NULL,
+  `product_title` varchar(100) NOT NULL, 
   `product_price` int NOT NULL,
   `product_case` text NOT NULL,
   `product_image` text NOT NULL,
