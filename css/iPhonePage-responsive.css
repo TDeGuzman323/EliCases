@@ -1,4 +1,7 @@
-/* ------ MAIN ------ */
+/* -------------------------------------------------------------------------- */
+/*                             ------ MAIN ------                             */
+/* -------------------------------------------------------------------------- */
+
 :root {
 --primaryColor:#23415C;
 --accentColor: #B8860B; 
@@ -26,10 +29,14 @@ html,body
 height: 100%;
 width: 100%;
 }
-/* -------- end of MAIN -------- */
+
+/* ---------------------- -------- end of MAIN -------- --------------------- */
 
 
-/* -------- NAVBAR -------- */
+/* -------------------------------------------------------------------------- */
+/*                          -------- NAVBAR --------                          */
+/* -------------------------------------------------------------------------- */
+
 .navbar
 {
 background-color: #23415C;
@@ -110,10 +117,14 @@ border-radius: 30%;
 color: #FFF;
 }
 /* --------- end of CART BUTTON NAV --------- */
-/* --------- end of NAVBAR --------- */
+
+/* -------------------- --------- end of NAVBAR --------- ------------------- */
 
 
-/* -------- HEADER -------- */
+/* -------------------------------------------------------------------------- */
+/*                          -------- HEADER --------                          */
+/* -------------------------------------------------------------------------- */
+
 .container
 {
 background-image: url("../Images/rosewoodCustomized_iPhone.jpg");
@@ -139,74 +150,89 @@ color: #23415C;
 text-shadow: 3px 3px #B8860B;
 margin-top: 5%;
 }
-/* -------- END OF HEADER--------> */
+
+/* --------------------- -------- end of HEADER-------- -------------------- */
 
 
 
-/* -------- PRODUCTS -------- */
+/* -------------------------------------------------------------------------- */
+/*                         -------- PRODUCTS --------                         */
+/* -------------------------------------------------------------------------- */
+
 .products {
-padding: 4rem 0;
-}
+    padding: 4rem 0;
+    }
+    
+    .products-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    }
+    
+    .img-container {
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .img-container:hover .bag-btn {
+    transform: translateX(0);
+    }
+    
+    .product-img {
+    display: block;
+    width: 50%;
+    min-height: 12rem;
+    transition: var(--mainTransition);
+    margin-left: 25%;
+    }
+    
+    .img-container:hover .product-img {
+    opacity: 0.5;
+    }
 
-.products-center {
-width: 90vw;
-margin: 0 auto;
-max-width: 1170px;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-grid-column-gap: 1.5rem;
-grid-row-gap: 2rem;
-}
+    .imgPro
+    {
+        display: block;
+        width: 50%;
+        min-height: 10rem;
+        padding: 20px;
+        margin-left: 80px;
 
-.img-container {
-position: relative;
-overflow: hidden;
-}
-
-.img-container:hover .bag-btn {
-transform: translateX(0);
-}
-
-.product-img {
-display: block;
-width: 50%;
-min-height: 12rem;
-transition: var(--mainTransition);
-margin-left: 25%;
-}
-
-.img-container:hover .product-img {
-opacity: 0.5;
-}
-
-.product h3 {
-margin-top: 1rem;
-letter-spacing: var(--mainSpacing);
-text-align: center;
-color: var(--mainBlack);
-}
-
-.product h4 {
-margin-top: 0.7rem;
-letter-spacing: var(--mainSpacing);
-color: var(--primaryColor);
-text-align: center;
-}
-
-#product11pro
-{
-width: 55%;
-}
-
-#product11x
-{
-width: 55%;
-}
-
-#product8
-{
-width: 56%;
-}
+    }
+    
+    .product h3 {
+    margin-top: 1rem;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+    color: var(--mainBlack);
+    }
+    
+    .product h4 {
+    margin-top: 0.7rem;
+    letter-spacing: var(--mainSpacing);
+    color: var(--primaryColor);
+    text-align: center;
+    }
+    
+    #product11pro
+    {
+    width: 55%;
+    }
+    
+    #product11x
+    {
+    width: 55%;
+    }
+    
+    #product8
+    {
+    width: 56%;
+    }
+    
 
 /*  ---------- OVERLAY BUTTON --------- */
 
@@ -232,7 +258,12 @@ opacity: 1;
 }
 /* -------- end of OVERLAY BUTTON -------- */
 
-/* -------- FOOTER -------- */
+/* --------------------------- end of PRODUCTS -------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                          -------- FOOTER --------                          */
+/* -------------------------------------------------------------------------- */
+
 footer
 {
 width: 100%;
@@ -286,7 +317,15 @@ max-width: 200px;
 margin-top: 10%;
 }
 
-/* -------- CONTACT MODAL BUTTONS, TRIGGER & SUBMIT -------- */
+.row #connect
+{
+margin-top: 10%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*          -------- CONTACT MODAL BUTTONS, TRIGGER & SUBMIT --------         */
+/* -------------------------------------------------------------------------- */
+
 .modBttn_footer
 {
 font-family: 'Cinzel', serif;
@@ -305,25 +344,6 @@ padding: 10px 25px 10px 25px;
 color:#B8860B;
 background-color: #23415C;
 }
-/* -------- end of CONTACT MODAL BUTTONS, TRIGGER & SUBMIT -------- */
-
-.modal-body
-{
-font-family: 'Montserrat', sans-serif;
-text-align: left;
-color: #000;   
-width: 90%;
-margin-top: 10px;
-}
-
-.modal-header h4
-{
-font-family: 'Cinzel', serif;
-font-weight: bold;
-font-size: 30px;
-color: #23415C;
-text-shadow: 2px 2px #B8860B;
-}
 
 label
 {
@@ -337,7 +357,7 @@ margin-left: 5%;
 
 input
 {
-width: 100%;
+width: 90%;
 padding: 12px 20px;
 margin: 8px 0;
 margin-left: 5%;
@@ -347,21 +367,24 @@ box-sizing: border-box;
 
 textarea
 {
-width: 100%;
+width: 90%;
 padding: 12px 20px;
 margin: 8px 0;
 margin-left: 5%;
 border-radius: 10px 10px;
 box-sizing: border-box;
 }
-/* -------- end of MODAL CONTENT -------- */
-.row #connect
-{
-margin-top: 10%;
-}
-/* -------- end of FOOTER -------- */
 
-/* -------- MEDIA QUERIES ------- */
+/* ---- -------- end of CONTACT MODAL BUTTONS, TRIGGER & SUBMIT -------- ---- */
+
+/* -------------------------------------------------------------------------- */
+/*                                end of FOOTER                               */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                       -------- MEDIA QUERIES -------                       */
+/* -------------------------------------------------------------------------- */
+
 @media (max-width: 768px)
 {
 .navbar
@@ -432,4 +455,4 @@ width: 100%;
 margin-top: 10%;
 }    
 } 
-/* -------- end of MEDIA QUERIES ------- */
+/* ------------------ -------- end of MEDIA QUERIES ------- ----------------- */

@@ -12,7 +12,7 @@
             },
             "name": "MySQL_db",
             "password": "PadrePio",
-            "port": 3306,
+            "port": 33060,
             "server": "LocalHost",
             "username": "root"
         }

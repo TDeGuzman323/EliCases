@@ -2,7 +2,9 @@
 /*                                  VARIABLES                                 */
 /* -------------------------------------------------------------------------- */
 
-const cartList = document.getElementById('shoppingCart')
+const cartList = document.getElementById('cart-list')
+const cartQty = document.getElementById ('cart-qty')
+const cartTotal = document.getElementById('cart-total')
 
 
 const cart = []
@@ -29,15 +31,24 @@ function addItem(phone_model, wood_type, price) {
 
 function showItems() {
     const qty = getQty()
-    const total = getTotal()
+    cartQty.innerHTML = `You have ${qty} items in your cart`
+
    
-    console.log(`You have ${qty} items in your cart`)
 
+    let itemStr = ''
     for (let i = 0; i < cart.length; i += 1) {
-        console.log(`- ${cart[i].phone_model} ${cart[i].wood_type} $${cart[i].price} x ${cart[i].qty}`)
-    }
+        //console.log(`- ${cart[i].phone_model} ${cart[i].wood_type} $${cart[i].price} x ${cart[i].qty}`)
+        //{ phone_model: 'Apple', wood_type: 'bamboo', price: 30.00, qty: 2 }
+        const { phone_model, wood_type, price, qty } = cart[i]
 
-    console.log (`Cart Total: $${total}`)
+        itemStr += `<li> ${name} ${wood_type} $${price} x ${qty} = ${qty * price}</li>`
+    }
+    
+   cartList.innerHTML = itemStr  
+
+   cartTotal.innerHTML = `Your total: $${getTotal()}`
+
+  
 }
 
 /* -------------------------------------------------------------------------- */
@@ -86,20 +97,20 @@ function removeItem(phone_model, wood_type, qty = 0) {
 /*                                  TEST ZONE                                 */
 /* -------------------------------------------------------------------------- */
 
-addItem('iPhone11', 'walnut', 30.00)
-addItem('iPhone11', 'rosewood', 30.00)
-addItem('iPhone11', 'rosewood', 30.00)
-addItem('iPhoneX', 'bamboo', 30.00)
-addItem('iPhoneX', 'bamboo', 30.00)
-addItem('iPhoneX Max', 'rosewood', 30.00)
-addItem('iPhoneX Max', 'walnut', 30.00)
-addItem('Samsung Galaxy 10', 'cherry', 30.00)
-addItem('Samsung Galaxy 10', 'cherry', 30.00)
-addItem('Samsung Note 10', 'rosewood', 30.00)
+// addItem('iPhone11', 'walnut', 30.00)
+// addItem('iPhone11', 'rosewood', 30.00)
+// addItem('iPhone11', 'rosewood', 30.00)
+// addItem('iPhoneX', 'bamboo', 30.00)
+// addItem('iPhoneX', 'bamboo', 30.00)
+// addItem('iPhoneX Max', 'rosewood', 30.00)
+// addItem('iPhoneX Max', 'walnut', 30.00)
+// addItem('Samsung Galaxy 10', 'cherry', 30.00)
+// addItem('Samsung Galaxy 10', 'cherry', 30.00)
+// addItem('Samsung Note 10', 'rosewood', 30.00)
 
-removeItem('iPhone11', 'rosewood')
-removeItem('iPhoneX', 'bamboo', 1)
-removeItem('Samsung Galaxy 10', 'cherry', 1)
+// removeItem('iPhone11', 'rosewood')
+// removeItem('iPhoneX', 'bamboo', 1)
+// removeItem('Samsung Galaxy 10', 'cherry', 1)
 
 
-showItems() 
+// showItems() 
