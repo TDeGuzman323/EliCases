@@ -124,7 +124,7 @@ div.imgPro
 /*                        --- MODAL FOOTER BUTTONS ---                        */
 /* -------------------------------------------------------------------------- */
 
-.modBttn
+/* #modBttn
 {
 font-family: 'Cinzel', serif;
 font-weight: bolder;
@@ -137,11 +137,13 @@ padding: 10px 25px 10px 25px;
 position: relative;
 }
 
-.modBttn:hover
+#modBttn:hover
 {
 background-color: #FFF;
 color: black
-}
+} */
+
+
 
 @keyframes fadeIn
 {
