@@ -16,7 +16,10 @@
 
 /* ------------------------------- end of MAIN ------------------------------ */
 
-/* ----------------------------- MODAL STRUCTURE ---------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                               MODAL STRUCTURE                              */
+/* -------------------------------------------------------------------------- */
+
 .modal-body
 {
     font-family: 'Montserrat', sans-serif;
@@ -75,31 +78,58 @@ p
     margin-left: 20px;
 }
 
-.row
+/* .row
 {
     display: inline-block;
-}
-
-.column
-{
-    padding-left: 25px;
-    
-}
-
-.column img
-{
-    width: 20%;
-    padding-left: 20px;
-
-    
-}
+    align-items: center;
+} */
 
 /* ------------------------- end of MODAL STRUCTURE ------------------------- */
 
 /* -------------------------------------------------------------------------- */
 /*                               iPhone11 MODAL                               */
 /* -------------------------------------------------------------------------- */
-/* 
+
+
+/* -------------------------------------------------------------------------- */
+/*                          --MODAL SWITCH BUTTONS--                          */
+/* -------------------------------------------------------------------------- */
+
+/* ---------------------------- --- iPhone 11 --- --------------------------- */
+
+.bamboo11
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    
+}
+.cherry11
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 105px;
+    margin-bottom: 30px;
+}
+
+.rosewood11
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.walnut11
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* <--Possible Code for JS integration -->
 div#bamboo11ProMain
 {
     width: 200px;
@@ -120,10 +150,450 @@ div.imgPro
     animation: fadeIn 200ms 1 forwards;
 } */
 
+/* ------------------------- --- end - iPHONE 11 --- ------------------------ */
+
+/* -------------------------- --- iPHONE 11 PRO --- ------------------------- */
+
+.bamboo11Pro
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.cherry11Pro
+{
+
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.rosewood11Pro
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnut11Pro
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* ----------------------- --- end - iPhone 11 Pro --- ---------------------- */
+
+/* ---------------------------- iPHONE 11 PRO MAX --------------------------- */
+
+.bamboo11ProMax
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    
+}
+.cherry11ProMax
+{
+
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+
+.rosewood11ProMax
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.walnut11ProMax
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* --------------------- --- end of iPHONE 11 PROMax --- -------------------- */
+
+/* ------------------------- --- iPhone X Modal --- ------------------------- */
+
+.bambooX
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;    
+}
+.cherryX
+{
+
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+
+.rosewoodX
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.walnutX
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px
+}
+
+/* ---------------------- --- end of iPhone X Modal --- --------------------- */
+
+/* ------------------------- --- iPhone XR Modal --- ------------------------ */
+
+.bambooXR
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.cherryXR
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 105px;
+    margin-bottom: 30px
+}
+
+.rosewoodXR
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 195px;
+    margin-bottom: 30px;
+}
+.walnutXR
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 305px;
+    margin-bottom: 30px
+}
+
+/* --------------------- --- end of iPhone XR Modal --- --------------------- */
+
+/* ------------------------- --- iPhone XS Modal --- ------------------------ */
+
+.bambooXS
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 8px;
+    margin-bottom: 30px;    
+}
+.cherryXS
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.rosewoodXS
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnutXS
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* --------------------- --- end of iPhone XS Modal --- --------------------- */
+
+/* ----------------------- --- iPhone XS Max Modal --- ---------------------- */
+
+.bambooXSmax
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    
+}
+.cherryXSmax
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.rosewoodXSmax
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnutXSmax
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* --------------------- --- end of iPhone XS Max Modal --------------------- */
+
+/* ------------------------- --- iPhone 8 Modal --- ------------------------- */
+
+.bamboo8
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.cherry8
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.rosewood8
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnut8
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* ---------------------- --- end of iPhone 8 Modal --- --------------------- */
+
+/* ----------------------- --- iPhone 8 Plus Modal --- ---------------------- */
+
+.bamboo8Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    
+}
+.cherry8Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px
+}
+
+.rosewood8Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnut8Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+/* --- end of iPhone 8 Plus Modal --- */
+/* --- iPhone 7 Modal --- */
+.bamboo7
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.cherry7
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.rosewood7
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnut7
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px
+}
+
+/* ------------------------ --- end of iPhone 7 Modal ----------------------- */
+
+/* ----------------------- --- iPhone 7Plus Modal --- ----------------------- */
+
+.bamboo7Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;   
+}
+.cherry7Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.rosewood7Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnut7Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* ---------------------- --- end of iPhone 7Plus Modal --------------------- */
+
+/* ------------------------- --- iPhone 6 Modal --- ------------------------- */
+
+.bamboo6
+{
+    
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;    
+}
+.cherry6
+{
+
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+
+.rosewood6
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnut6
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* ------------------------ --- end of iPhone 6 Modal ----------------------- */
+
+/* -------------------- --- iPhone iPhone 6Plus Modal --- ------------------- */
+
+.bamboo6Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.cherry6Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.rosewood6Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnut6Plus
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* ---------------------- --- end of iPhone 6Plus Modal --------------------- */
+
+/* --- */
+
 /* -------------------------------------------------------------------------- */
 /*                        --- MODAL FOOTER BUTTONS ---                        */
 /* -------------------------------------------------------------------------- */
 
+@keyframes fadeIn
+{
+    0% {opacity:0}
+    100% {opacity: 1}
+}
+
+/* --- OLD CODE --- */
 /* #modBttn
 {
 font-family: 'Cinzel', serif;
@@ -143,437 +613,11 @@ background-color: #FFF;
 color: black
 } */
 
-
-
-@keyframes fadeIn
-{
-    0% {opacity:0}
-    100% {opacity: 1}
-}
-
 /* ------------------- --- end of MODAL FOOTER BUTTONS --- ------------------ */
 
-
 /* -------------------------------------------------------------------------- */
-/*                          --MODAL SWITCH BUTTONS--                          */
+/*                            --- MEDIA QUERIES ---                           */
 /* -------------------------------------------------------------------------- */
-
-/* ---------------------------- --- iPhone 11 --- --------------------------- */
-
-.bamboo11
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry11
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-}
-
-.rosewood11
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-.walnut11
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
- /* --- end - iPHONE 11 --- */
- /* --- iPHONE 11 PRO --- */
-.bamboo11Pro
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry11Pro
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewood11Pro
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-.walnut11Pro
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end - iPhone 11 Pro --- */
-/* iPHONE 11 PRO MAX */
-.bamboo11ProMax
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry11ProMax
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewood11ProMax
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-.walnut11ProMax
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPHONE 11 PROMax --- */
-/* --- iPhone X Modal --- */
-.bambooX
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherryX
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewoodX
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-.walnutX
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPhone X Modal --- */
-/* --- iPhone XR Modal ---*/
-.bambooXR
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherryXR
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewoodXR
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-.walnutXR
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPhone XR Modal --- */
-
-/* --- iPhone XS Modal --- */
-.bambooXS
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherryXS
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewoodXS
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-
-.walnutXS
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPhone XS Modal ---*/
-/* --- iPhone XS Max Modal ---*/
-.bambooXSmax
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherryXSmax
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewoodXSmax
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-
-.walnutXSmax
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPhone XS Max Modal */
-/* --- iPhone 8 Modal ---*/
-.bamboo8
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry8
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewood8
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-
-.walnut8
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPhone 8 Modal --- */
-/* --- iPhone 8 Plus Modal --- */
-.bamboo8Plus
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry8Plus
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewood8Plus
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-
-.walnut8Plus
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPhone 8 Plus Modal --- */
-/* --- iPhone 7 Modal --- */
-.bamboo7
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry7
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewood7
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-
-.walnut7
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPhone 7 Modal */
-/* --- iPhone 7Plus Modal --- */
-.bamboo7Plus
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry7Plus
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewood7Plus
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-
-.walnut7Plus
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPhone 7Plus Modal */
-/* --- iPhone 6 Modal --- */
-.bamboo6
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry6
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewood6
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-
-.walnut6
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-
-/* --- end of iPhone 6 Modal */
-/* --- iPhone iPhone 6Plus Modal --- */
-.bamboo6Plus
-{
-    
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 10px;
-    
-}
-.cherry6Plus
-{
-
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 100px;
-
-}
-
-.rosewood6Plus
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 200px;
-}
-
-.walnut6Plus
-{
-    background-color: #FFF;
-    border-color: #FFF;
-    margin-left: 300px;
-}
-/* --- end of iPhone 6Plus Modal */
-
-/* --- */
-
-/* --- MEDIA QUERIES --- */
 
 @media (max-width: 768px)
 {
@@ -856,13 +900,10 @@ color: black
     }
 /* --- end of iPhone 6Plus Modal */
 
+/* -------------------------------------------------------------------------- */
+/*                               MODAL CART BUTTON (MQ)                       */
+/* -------------------------------------------------------------------------- */
 
-
-
-
-
-
-    /* mod cart button */
     .modBttn
 {
     margin-bottom: 30px;
@@ -871,3 +912,5 @@ color: black
    
 }
 }
+/* --- end of MOD CART BUTTON (MQ) --- */
+/* -------------------------- end of MEDIA QUERIES -------------------------- */

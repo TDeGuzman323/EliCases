@@ -194,14 +194,13 @@ margin-top: 5%;
     opacity: 0.5;
     }
 
-    .imgPro
+    .imgPro img
     {
-        display: block;
-        width: 50%;
-        min-height: 10rem;
-        padding: 20px;
-        margin-left: 80px;
-
+    display: block;
+    width: 50%;
+    min-height:10rem;
+    padding: 20px;
+    margin-left: 25%;
     }
     
     .product h3 {
