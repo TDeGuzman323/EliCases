@@ -43,7 +43,7 @@ walnut11.addEventListener('click', () => {
 /*                               SHOP CART MODAL                              */
 /* -------------------------------------------------------------------------- */
 
-pnp_open_cartqe5jc-hg()
+// pnp_open_cartqe5jc-hg()
 
 
 

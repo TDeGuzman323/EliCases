@@ -89,6 +89,25 @@ text-align: center;
 margin-top: 8%;
 }
 
+.phoneHeader h2{
+  font-family: 'Cinzel', serif;
+  color: var(--accentColor);
+  text-shadow: 2px 2px var(--primaryColor);
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.phoneHeader h5
+{
+font-family: 'Bebas Neue', cursive;
+color: var(--primaryColor);
+text-shadow: 3px 3px var(--accentColor);
+font-size: 32px;
+text-align: center;
+margin-top: 5%;
+}
+
 .phoneHeader h3
 {
 font-family: 'Cinzel', serif;
@@ -97,6 +116,8 @@ text-align: center;
 font-weight: bolder;
 font-size: 25px;
 }
+
+
 /* --- end of HEADER */
 
 /* --- GALLERY --- */
@@ -199,7 +220,7 @@ min-height: 12rem;
   min-height: 12rem;
   /* */
   margin-left: 30%;
-  margin-top: 2%;
+  margin-top: 0.5%;
   }
 
 .product-img1 {
@@ -343,7 +364,7 @@ text-align: center;
 /* --- ON CLICK STYLINGS --- */
 
 /* --- MARQUEE ANIMATION --- */
-.marquee {
+/* .marquee {
   height: 50px;
   overflow: hidden;
   position: relative;
@@ -400,7 +421,7 @@ text-align: center;
       -webkit-transform: translateX(-100%);
       transform: translateX(-100%);
   }
-}
+} */
 /* --- end of MARQUEE ANIMATION --- */
 
 /* --- end of ON CLICK STYLINGS --- */

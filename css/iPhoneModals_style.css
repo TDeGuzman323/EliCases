@@ -581,6 +581,41 @@ div.imgPro
 
 /* ---------------------- --- end of iPhone 6Plus Modal --------------------- */
 
+/* -------------------- --- iPhone 5 Modal --- ------------------- */
+
+.bamboo5
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.cherry5
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.rosewood5
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.walnut5
+{
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/* ---------------------- --- end of iPhone 5 Modal --------------------- */
+
 /* --- */
 
 /* -------------------------------------------------------------------------- */
